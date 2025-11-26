@@ -21,7 +21,7 @@ namespace ProyectoDI_Trimestre1
         public MainWindow(string usuario) //el string es el nombre de usuario que me he pasado desde login
         {
             InitializeComponent();
-            Nom_Usuario = usuario; //Ponerle valor a la cadena
+            Nom_Usuario = usuario.ToUpper(); //Ponerle valor a la cadena
 
            //Hacer que el método se pueda ejecutar, como en android studio 
             bienvenido_usuario();
@@ -29,7 +29,7 @@ namespace ProyectoDI_Trimestre1
 
         private void bienvenido_usuario()
         {
-            bienvenida_usuario.Text = "Bienvenido " + Nom_Usuario;  //mensaje de bienvenida que sale en la parte de arriba
+            bienvenida_usuario.Text = "Bienvenido, " + Nom_Usuario;  //mensaje de bienvenida que sale en la parte de arriba
         }
 
         private void salir_Click(object sender, RoutedEventArgs e)
