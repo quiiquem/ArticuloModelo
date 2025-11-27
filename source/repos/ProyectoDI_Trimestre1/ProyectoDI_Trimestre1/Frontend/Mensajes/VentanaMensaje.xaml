@@ -9,7 +9,7 @@
         WindowStartupLocation="CenterScreen"
         x:Name="ventanaDialogoMensaje"
         Loaded="ventanaDialogoMensaje_Loaded"
-        Height="550" Width="350">
+        Height="350" Width="350">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -17,23 +17,30 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
+
+     
         <Border x:Name="borderMensaje">
-            <Image x:Name="imgMensaje" HorizontalAlignment="Center"/>
+            <Image x:Name="imgMensaje" HorizontalAlignment="Center" Grid.Row="1"
+                   Width="50"/>
         </Border>
         <TextBlock x:Name="tbTitulo" Grid.Row="1" Margin="20" 
-                   TextWrapping="WrapWithOverflow"
-                   HorizontalAlignment="Center"
-                   FontSize="24" FontWeight="Bold"/>
+                   TextWrapping="WrapWithOverflow" TextAlignment="Center"
+                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                   FontSize="20" FontWeight="Bold"/>
         <TextBlock x:Name="tbMensaje"
-                   FontSize="16"
-                   TextWrapping="Wrap"
+                   FontSize="20"
+                   TextWrapping="Wrap" 
                    Margin="20,0,20,20" HorizontalAlignment="Center"
                    Grid.Row="2" />
-        <Button x:Name="Aceptar"
-                Click="Aceptar_Click"
-                Width="200"
-                Content="Aceptar"
-                Margin="20"
-                Grid.Row="3" />
+
+        <Button x:Name="Aceptar" Grid.Row="3"
+            Click="Aceptar_Click"
+            Content="ACEPTAR"
+            FontSize="18"
+            Height="60"
+            Width="240"    
+            Background="Transparent"
+            BorderThickness="0"/>
+
     </Grid>
 </Window>

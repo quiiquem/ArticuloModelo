@@ -76,7 +76,7 @@ namespace ProyectoDI_Trimestre1.Frontend.Mensajes
 
                 case TipoMensaje.Advertencia:
                     ColorDistintivo = new SolidColorBrush(Color.FromRgb(255, 152, 0)); // Naranja
-                    Imagen = CargarIcono("warning");
+                    Imagen = CargarIcono("advertencia");
                     break;
 
                 case TipoMensaje.Error:
@@ -95,10 +95,11 @@ namespace ProyectoDI_Trimestre1.Frontend.Mensajes
             try
             {
                 // Ajusta la ruta según tu estructura de proyecto
-                var uri = new Uri($"pack://application:,,,/Recursos/Imagenes/{nombreIcono}.jpg",
+                var uri = new Uri($"pack://application:,,,/Recursos/Iconos/{nombreIcono}.png",
+      
                     UriKind.RelativeOrAbsolute);
-                imagen = new BitmapImage(uri);
-            }
+                imagen = new BitmapImage(uri);     
+           }
             catch
             {
                 // Si no se encuentra la imagen, devuelve null

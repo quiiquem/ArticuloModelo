@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|c:\\users\\windows10\\source\\repos\\proyectodi_trimestre1\\proyectodi_trimestre1\\frontend\\mensajes\\mensajedialogo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|solutionrelative:proyectodi_trimestre1\\frontend\\mensajes\\mensajedialogo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|c:\\users\\windows10\\source\\repos\\proyectodi_trimestre1\\proyectodi_trimestre1\\frontend\\mensajes\\mensajeventana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|solutionrelative:proyectodi_trimestre1\\frontend\\mensajes\\mensajeventana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|c:\\users\\windows10\\source\\repos\\proyectodi_trimestre1\\proyectodi_trimestre1\\frontend\\dialogos\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|solutionrelative:proyectodi_trimestre1\\frontend\\dialogos\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|c:\\users\\windows10\\source\\repos\\proyectodi_trimestre1\\proyectodi_trimestre1\\frontend\\mensajes\\mensajedialogo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|solutionrelative:proyectodi_trimestre1\\frontend\\mensajes\\mensajedialogo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|c:\\users\\windows10\\source\\repos\\proyectodi_trimestre1\\proyectodi_trimestre1\\frontend\\dialogos\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|solutionrelative:proyectodi_trimestre1\\frontend\\dialogos\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|c:\\users\\windows10\\source\\repos\\proyectodi_trimestre1\\proyectodi_trimestre1\\frontend\\mensajes\\ventanamensaje.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|solutionrelative:proyectodi_trimestre1\\frontend\\mensajes\\ventanamensaje.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|c:\\users\\windows10\\source\\repos\\proyectodi_trimestre1\\proyectodi_trimestre1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|solutionrelative:proyectodi_trimestre1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|c:\\users\\windows10\\source\\repos\\proyectodi_trimestre1\\proyectodi_trimestre1\\frontend\\mensajes\\ventanamensaje.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|solutionrelative:proyectodi_trimestre1\\frontend\\mensajes\\ventanamensaje.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|c:\\users\\windows10\\source\\repos\\proyectodi_trimestre1\\proyectodi_trimestre1\\frontend\\mensajes\\mensajeventana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|solutionrelative:proyectodi_trimestre1\\frontend\\mensajes\\mensajeventana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|c:\\users\\windows10\\source\\repos\\proyectodi_trimestre1\\proyectodi_trimestre1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|solutionrelative:proyectodi_trimestre1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|c:\\users\\windows10\\source\\repos\\proyectodi_trimestre1\\proyectodi_trimestre1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|solutionrelative:proyectodi_trimestre1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|c:\\users\\windows10\\source\\repos\\proyectodi_trimestre1\\proyectodi_trimestre1\\frontend\\mensajes\\mensajedialogo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|solutionrelative:proyectodi_trimestre1\\frontend\\mensajes\\mensajedialogo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|c:\\users\\windows10\\source\\repos\\proyectodi_trimestre1\\proyectodi_trimestre1\\frontend\\mensajes\\ventanamensaje.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|solutionrelative:proyectodi_trimestre1\\frontend\\mensajes\\ventanamensaje.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|c:\\users\\windows10\\source\\repos\\proyectodi_trimestre1\\proyectodi_trimestre1\\frontend\\mensajes\\mensajedialogo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|solutionrelative:proyectodi_trimestre1\\frontend\\mensajes\\mensajedialogo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|c:\\users\\windows10\\source\\repos\\proyectodi_trimestre1\\proyectodi_trimestre1\\frontend\\dialogos\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|solutionrelative:proyectodi_trimestre1\\frontend\\dialogos\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5EECC04B-E3BB-466D-B7C4-8782C2FF20E6}|ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1.csproj|c:\\users\\windows10\\source\\repos\\proyectodi_trimestre1\\proyectodi_trimestre1\\frontend\\controlusuario\\eliminar_funko.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -102,17 +102,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Login.xaml.cs",
               "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Dialogos\\Login.xaml.cs",
               "RelativeDocumentMoniker": "ProyectoDI_Trimestre1\\Frontend\\Dialogos\\Login.xaml.cs",
               "ToolTip": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Dialogos\\Login.xaml.cs",
               "RelativeToolTip": "ProyectoDI_Trimestre1\\Frontend\\Dialogos\\Login.xaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T08:09:12.542Z",
               "IsPinned": true,
@@ -133,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ProyectoDI_Trimestre1\\MainWindow.xaml",
@@ -141,7 +141,8 @@
               "RelativeToolTip": "ProyectoDI_Trimestre1\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-29T08:36:30.636Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -178,15 +179,89 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProyectoDI_Trimestre1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ProyectoDI_Trimestre1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAEwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T08:25:33.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VentanaMensaje.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Mensajes\\VentanaMensaje.xaml.cs",
+              "RelativeDocumentMoniker": "ProyectoDI_Trimestre1\\Frontend\\Mensajes\\VentanaMensaje.xaml.cs",
+              "ToolTip": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Mensajes\\VentanaMensaje.xaml.cs",
+              "RelativeToolTip": "ProyectoDI_Trimestre1\\Frontend\\Mensajes\\VentanaMensaje.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T07:49:04.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VentanaMensaje.xaml",
+              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Mensajes\\VentanaMensaje.xaml",
+              "RelativeDocumentMoniker": "ProyectoDI_Trimestre1\\Frontend\\Mensajes\\VentanaMensaje.xaml",
+              "ToolTip": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Mensajes\\VentanaMensaje.xaml",
+              "RelativeToolTip": "ProyectoDI_Trimestre1\\Frontend\\Mensajes\\VentanaMensaje.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-26T07:46:19.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MensajeDialogo.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeDialogo.xaml.cs",
+              "RelativeDocumentMoniker": "ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeDialogo.xaml.cs",
+              "ToolTip": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeDialogo.xaml.cs",
+              "RelativeToolTip": "ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeDialogo.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T08:17:08.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MensajeVentana.cs",
               "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeVentana.cs",
               "RelativeDocumentMoniker": "ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeVentana.cs",
               "ToolTip": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeVentana.cs",
               "RelativeToolTip": "ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeVentana.cs",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAowM4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAEwGQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T07:50:53.229Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MensajeDialogo.xaml",
+              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeDialogo.xaml",
+              "RelativeDocumentMoniker": "ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeDialogo.xaml",
+              "ToolTip": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeDialogo.xaml",
+              "RelativeToolTip": "ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeDialogo.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-26T08:18:55.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Crear_Funko.xaml",
+              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\ControlUsuario\\Crear_Funko.xaml",
+              "RelativeDocumentMoniker": "ProyectoDI_Trimestre1\\Frontend\\ControlUsuario\\Crear_Funko.xaml",
+              "ToolTip": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\ControlUsuario\\Crear_Funko.xaml",
+              "RelativeToolTip": "ProyectoDI_Trimestre1\\Frontend\\ControlUsuario\\Crear_Funko.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-24T07:58:49.589Z"
             },
             {
               "$type": "Document",
@@ -202,67 +277,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Crear_Funko.xaml",
-              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\ControlUsuario\\Crear_Funko.xaml",
-              "RelativeDocumentMoniker": "ProyectoDI_Trimestre1\\Frontend\\ControlUsuario\\Crear_Funko.xaml",
-              "ToolTip": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\ControlUsuario\\Crear_Funko.xaml",
-              "RelativeToolTip": "ProyectoDI_Trimestre1\\Frontend\\ControlUsuario\\Crear_Funko.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-24T07:58:49.589Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MensajeDialogo.xaml",
-              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeDialogo.xaml",
-              "RelativeDocumentMoniker": "ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeDialogo.xaml",
-              "ToolTip": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeDialogo.xaml",
-              "RelativeToolTip": "ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeDialogo.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-26T08:18:55.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "VentanaMensaje.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Mensajes\\VentanaMensaje.xaml.cs",
-              "RelativeDocumentMoniker": "ProyectoDI_Trimestre1\\Frontend\\Mensajes\\VentanaMensaje.xaml.cs",
-              "ToolTip": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Mensajes\\VentanaMensaje.xaml.cs",
-              "RelativeToolTip": "ProyectoDI_Trimestre1\\Frontend\\Mensajes\\VentanaMensaje.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T07:49:04.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VentanaMensaje.xaml",
-              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Mensajes\\VentanaMensaje.xaml",
-              "RelativeDocumentMoniker": "ProyectoDI_Trimestre1\\Frontend\\Mensajes\\VentanaMensaje.xaml",
-              "ToolTip": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Mensajes\\VentanaMensaje.xaml",
-              "RelativeToolTip": "ProyectoDI_Trimestre1\\Frontend\\Mensajes\\VentanaMensaje.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-26T07:46:19.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MensajeDialogo.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeDialogo.xaml.cs",
-              "RelativeDocumentMoniker": "ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeDialogo.xaml.cs",
-              "ToolTip": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeDialogo.xaml.cs",
-              "RelativeToolTip": "ProyectoDI_Trimestre1\\Frontend\\Mensajes\\MensajeDialogo.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T08:17:08.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Eliminar_Funko.xaml.cs",
               "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\ControlUsuario\\Eliminar_Funko.xaml.cs",
@@ -275,27 +289,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Login.xaml",
               "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Dialogos\\Login.xaml",
               "RelativeDocumentMoniker": "ProyectoDI_Trimestre1\\Frontend\\Dialogos\\Login.xaml",
               "ToolTip": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\Frontend\\Dialogos\\Login.xaml",
               "RelativeToolTip": "ProyectoDI_Trimestre1\\Frontend\\Dialogos\\Login.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-29T08:09:10.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "ProyectoDI_Trimestre1\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\windows10\\source\\repos\\ProyectoDI_Trimestre1\\ProyectoDI_Trimestre1\\MainWindow.xaml.cs",
-              "RelativeToolTip": "ProyectoDI_Trimestre1\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAqwBcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T08:25:33.142Z"
+              "WhenOpened": "2025-10-29T08:09:10.652Z"
             },
             {
               "$type": "Document",

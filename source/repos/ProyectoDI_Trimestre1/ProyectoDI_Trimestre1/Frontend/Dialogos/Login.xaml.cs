@@ -20,7 +20,7 @@ namespace ProyectoDI_Trimestre1.Frontend.Dialogos
         
             if (string.IsNullOrWhiteSpace(txt_user.Text) || string.IsNullOrWhiteSpace(txt_password.Password))
             {
-                MessageBox.Show("Por favor, rellene todos los campos.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MensajeAdvertencia.Mostrar("Por favor, rellene todos los campos.", "Warning");
                 
                 return;
             }
@@ -30,6 +30,7 @@ namespace ProyectoDI_Trimestre1.Frontend.Dialogos
 
             if (ValidarLogin(usuario, password)) //Situacion correcta, funciona
             {
+                MensajeInformacion.Mostrar("Login correcto,\nbienvenido " + usuario, "LOGIN EXITOSO");
                 Window mainWindow = new MainWindow(usuario);
                 mainWindow.Show();
                 this.Close();

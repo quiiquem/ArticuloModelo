@@ -24,6 +24,18 @@
                 <materialDesign:PackIcon Kind="account"/>
                 <!--Tengo que hacer una ventana donde enseñe su email y todo-->
             </Button>
+            
+            <!--Minimizar boton-->
+            <Button ToolTip="Minimizar" x:Name="min_window" Click="min_window_Click">
+                <materialDesign:PackIcon Kind="WindowMinimize"/>
+            </Button>
+
+            <!--Maximizar boton-->
+            <Button ToolTip="Maximizar" x:Name="max_window" Click="max_window_Click">
+                <materialDesign:PackIcon Kind="WindowMaximize"/>
+            </Button>
+
+            <!--Salir boton-->
             <Button ToolTip="Salir" x:Name="salir_window" Click="salir_Click">
                 <materialDesign:PackIcon Kind="Logout"/>
             </Button>
