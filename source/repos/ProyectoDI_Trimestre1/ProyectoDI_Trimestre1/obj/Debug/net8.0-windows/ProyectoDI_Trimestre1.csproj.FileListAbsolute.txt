@@ -141,3 +141,5 @@ C:\Users\windows10\source\repos\ProyectoDI_Trimestre1\ProyectoDI_Trimestre1\obj\
 C:\Users\windows10\source\repos\ProyectoDI_Trimestre1\ProyectoDI_Trimestre1\obj\Debug\net8.0-windows\Frontend\Mensajes\VentanaMensaje.baml
 C:\Users\windows10\source\repos\ProyectoDI_Trimestre1\ProyectoDI_Trimestre1\obj\Debug\net8.0-windows\Frontend\Mensajes\MensajeDialogo.g.cs
 C:\Users\windows10\source\repos\ProyectoDI_Trimestre1\ProyectoDI_Trimestre1\obj\Debug\net8.0-windows\Frontend\Mensajes\MensajeDialogo.baml
+C:\Users\windows10\source\repos\ProyectoDI_Trimestre1\ProyectoDI_Trimestre1\obj\Debug\net8.0-windows\Frontend\ControlUsuario\Editar_Funko.g.cs
+C:\Users\windows10\source\repos\ProyectoDI_Trimestre1\ProyectoDI_Trimestre1\obj\Debug\net8.0-windows\Frontend\ControlUsuario\Editar_Funko.baml

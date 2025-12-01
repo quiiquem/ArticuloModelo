@@ -39,19 +39,14 @@ namespace ProyectoDI_Trimestre1
 
         private void max_window_Click(object sender, RoutedEventArgs e)
         {
-            bool estamax = false;
-            
-            if (estamax == false){
+            if (this.WindowState == WindowState.Normal)
+            {
                 this.WindowState = WindowState.Maximized; //maximizar la ventana
-                estamax = true;
             }
             else
             {
                 this.WindowState = WindowState.Normal; //restaurar la ventana
-                estamax = false;
             }
-
-            this.WindowState = WindowState.Maximized; //maximizar la ventana
         }
         private void salir_Click(object sender, RoutedEventArgs e)
         {

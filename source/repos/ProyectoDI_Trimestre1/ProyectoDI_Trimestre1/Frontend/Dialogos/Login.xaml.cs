@@ -35,7 +35,7 @@ namespace ProyectoDI_Trimestre1.Frontend.Dialogos
                 mainWindow.Show();
                 this.Close();
             }
-            else //Datos incorrectos
+            else //Datos incorrectos, no funciona
             {
                 MensajeError.Mostrar("Usuario o contraseña incorrectos,\ninserte su usuario e contraseña de nuevo", "ERROR DE LOGIN");
             }
