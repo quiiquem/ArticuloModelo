@@ -51,6 +51,7 @@ List<Puerto> puertos = new ArrayList<Puerto>();
 @OneToMany(mappedBy="ciclista", fetch=FetchType.LAZY)
 List<Llevar> llevan = new ArrayList<Llevar>();
 
+@ManyToMany(mappedBy="")
 @Override
 public int hashCode() {
 	return Objects.hash(dorsal, nacimiento, nombre);
