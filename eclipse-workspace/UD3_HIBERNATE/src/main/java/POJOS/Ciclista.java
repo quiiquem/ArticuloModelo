@@ -1,106 +1,200 @@
 package POJOS;
 
 import java.io.Serializable;
-import java.sql.Date;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToMany;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
-import javax.persistence.OneToOne;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
-@Table(name = "ciclista") //Nombre de la tabla de la BD 
-public class Ciclista implements Serializable{ 
-@Id
-@GeneratedValue(strategy=GenerationType.AUTO) //Indica que el valor generado es auto (lo podemos comprobar en la BD de SQL)
-private Integer dorsal;
-private String nombre;
-private Date nacimiento;
+@Table(name="ciclista")
+public class Ciclista implements Serializable{
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	private Integer dorsal;
+	private String nombre;
+	private Date nacimiento;
+
+	
+	@ManyToOne(cascade=CascadeType.ALL, fetch=FetchType.LAZY )
+	@JoinColumn(name="nomeq")
+	private Equipo equipo;
+	
+	@OneToMany(cascade=CascadeType.ALL, fetch=FetchType.LAZY,
+			mappedBy="ciclista")
+	List<Etapa>etapas=new ArrayList<Etapa>();
+	
+	
+	@ManyToMany(fetch=FetchType.LAZY, mappedBy="ciclistas")
+	List<Premio>premios=new ArrayList<Premio>();
+	
+
+	@ManyToMany(fetch=FetchType.LAZY, mappedBy="ciclista")
+	List<Puerto>puertos=new ArrayList<Puerto>();
+
+	public Ciclista() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+
+	public Ciclista(Integer dorsal, String nombre, Date nacimiento, Equipo equipo, List<Etapa> etapas,
+			List<Premio> premios, List<Puerto> puertos) {
+		super();
+		this.dorsal = dorsal;
+		this.nombre = nombre;
+		this.nacimiento = nacimiento;
+		this.equipo = equipo;
+		this.etapas = etapas;
+		this.premios = premios;
+		this.puertos = puertos;
+	}
 
 
-//conectar a otras tablas
-
-//Equipo
-@ManyToOne(cascade = CascadeType.ALL , fetch = FetchType.LAZY)
-@JoinColumn(name= "nomeq") //Hacer un Join poniendo el nombre de la clave ajena (en este caso N:1, asi que es manytoone)
-private Equipo equipo; //guardar la tabla
 
 
-//Etapa
-@OneToMany(mappedBy="ciclista", fetch=FetchType.LAZY) //buscar conexion con etapa 
-private List<Etapa> etapasganadas = new ArrayList<Etapa>(); //lista de los ciclista
 
-@ManyToMany(fetch= FetchType.LAZY, mappedBy="ciclistas")
-List<Premio> premios = new ArrayList<Premio>();
 
-@OneToMany(fetch= FetchType.LAZY, mappedBy="ciclistas")
-List<Puerto> puertos = new ArrayList<Puerto>();
 
-@OneToMany(mappedBy="ciclista", fetch=FetchType.LAZY)
-List<Llevar> llevan = new ArrayList<Llevar>();
 
-@ManyToMany(mappedBy="")
-@Override
-public int hashCode() {
-	return Objects.hash(dorsal, nacimiento, nombre);
-}
 
-@Override
-public boolean equals(Object obj) {
-	if (this == obj)
+
+
+
+
+	public List<Puerto> getPuertos() {
+		return puertos;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	public void setPuertos(List<Puerto> puertos) {
+		this.puertos = puertos;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	public List<Premio> getPremios() {
+		return premios;
+	}
+
+
+
+	public void setPremios(List<Premio> premios) {
+		this.premios = premios;
+	}
+
+
+
+	public List<Etapa> getEtapas() {
+		return etapas;
+	}
+
+	public void setEtapas(List<Etapa> etapas) {
+		this.etapas = etapas;
+	}
+
+	public Integer getDorsal() {
+		return dorsal;
+	}
+	public void setDorsal(Integer dorsal) {
+		this.dorsal = dorsal;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public Date getNacimiento() {
+		return nacimiento;
+	}
+	public void setNacimiento(Date nacimiento) {
+		this.nacimiento = nacimiento;
+	}
+	
+	/*public List<Premio> getPremios() {
+		return premios;
+	}
+
+	public void setPremios(List<Premio> premios) {
+		this.premios = premios;
+	}*/
+
+	public Equipo getEquipo() {
+		return equipo;
+	}
+	public void setEquipo(Equipo equipo) {
+		this.equipo = equipo;
+	}
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((dorsal == null) ? 0 : dorsal.hashCode());
+		result = prime * result + ((equipo == null) ? 0 : equipo.hashCode());
+		result = prime * result + ((nacimiento == null) ? 0 : nacimiento.hashCode());
+		result = prime * result + ((nombre == null) ? 0 : nombre.hashCode());
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Ciclista other = (Ciclista) obj;
+		
+		if (dorsal == null) {
+			if (other.dorsal != null)
+				return false;
+		} else if (!dorsal.equals(other.dorsal))
+			return false;
+		if (equipo == null) {
+			if (other.equipo != null)
+				return false;
+		} else if (!equipo.equals(other.equipo))
+			return false;
+		if (nacimiento == null) {
+			if (other.nacimiento != null)
+				return false;
+		} else if (!nacimiento.equals(other.nacimiento))
+			return false;
+		if (nombre == null) {
+			if (other.nombre != null)
+				return false;
+		} else if (!nombre.equals(other.nombre))
+			return false;
 		return true;
-	if (obj == null)
-		return false;
-	if (getClass() != obj.getClass())
-		return false;
-	Ciclista other = (Ciclista) obj;
-	return Objects.equals(dorsal, other.dorsal) && Objects.equals(nacimiento, other.nacimiento)
-			&& Objects.equals(nombre, other.nombre);
-}
-
-@Override
-public String toString() {
-	return "Ciclista [dorsal=" + dorsal + ", nombre=" + nombre + ", nacimiento=" + nacimiento + "]";
-}
-
-public Integer getDorsal() {
-	return dorsal;
-}
+	}
 
 
-
-public Date getNacimiento() {
-	return nacimiento;
-}
-
-public String getNombre() {
-	return nombre;
-}
-
-public void setDorsal(Integer dorsal) {
-	this.dorsal = dorsal;
-}
-
-public void setNombre(String nombre) {
-	this.nombre = nombre;
-}
-
-
-public void setNacimiento(Date nacimiento) {
-	this.nacimiento = nacimiento;
-}
-
+	@Override
+	public String toString() {
+		return "Ciclista [dorsal=" + dorsal + ", nombre=" + nombre + ", nacimiento=" + nacimiento + ", equipo=" + equipo
+				+ ", etapas=" + etapas + ", premios=" + premios + ", puertos=" + puertos + "]";
+	}
+	
 
 }

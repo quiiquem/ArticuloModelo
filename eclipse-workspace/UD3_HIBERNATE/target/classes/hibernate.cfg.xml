@@ -11,11 +11,13 @@
 <property name="hibernate.search.autoregister_listeners">false</property>
 <property name="hibernate.validator.apply_to_ddl">false</property>
 <property name="show_sql">true</property>
+
 <mapping class="POJOS.Equipo"/>
 <mapping class="POJOS.Ciclista"/>
 <mapping class="POJOS.Etapa"/>
 <mapping class="POJOS.Representante"/>
 <mapping class="POJOS.Premio"/>
 <mapping class="POJOS.Puerto"/>
+<mapping class="POJOS.Coche"/>
 </session-factory>
 </hibernate-configuration>
