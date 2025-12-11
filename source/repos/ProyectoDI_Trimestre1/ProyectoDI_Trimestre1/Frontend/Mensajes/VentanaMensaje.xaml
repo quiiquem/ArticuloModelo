@@ -21,9 +21,9 @@
      
         <Border x:Name="borderMensaje">
             <Image x:Name="imgMensaje" HorizontalAlignment="Center" Grid.Row="1"
-                   Width="50"/>
+                   Width="100" Margin="0,20"/>
         </Border>
-        <TextBlock x:Name="tbTitulo" Grid.Row="1" Margin="20" 
+        <TextBlock x:Name="tbTitulo" Grid.Row="1" Margin="0,20,0,20" 
                    TextWrapping="WrapWithOverflow" TextAlignment="Center"
                    HorizontalAlignment="Center" VerticalAlignment="Center"
                    FontSize="20" FontWeight="Bold"/>
@@ -38,9 +38,9 @@
             Content="ACEPTAR"
             FontSize="18"
             Height="60"
-            Width="240"    
+            Width="240"
             Background="Transparent"
-            BorderThickness="0"/>
+                BorderThickness="0"/>
 
     </Grid>
 </Window>

@@ -43,19 +43,20 @@ namespace ProyectoDI_Trimestre1.Frontend.Dialogos
 
         private bool ValidarLogin(string usuario, string password)
         {
-            using (var db = new DiinventarioexamenContext())
+            using (var db = new EnriqueMinguetProyectoContext())
             {
                 // Buscar usuario en la BD
-                var user = db.Usuarios.FirstOrDefault(u => u.Username == usuario); //poner campo username 
+                var user = db.Usuarios.FirstOrDefault(u => u.NomUsuario == usuario); //poner campo username 
 
                 if (user == null)
                 {
                     return false; // no existe el usuario
                 }
 
-                return user.Password == password; // comparar contraseña
+                return user.ContraseñaUsuario == password; // comparar contraseña
             }
         }
 
+       
     }
 }

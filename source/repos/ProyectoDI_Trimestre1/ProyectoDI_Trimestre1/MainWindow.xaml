@@ -146,7 +146,7 @@
                     </MenuItem>
                 </MenuItem>
                 <!--Contraseñas-->
-                <MenuItem Header="Contraseñas">
+                <MenuItem Header="Restablecer contraseña">
                     <MenuItem.Icon>
                         <materialDesign:PackIcon Kind="Password"/>
                     </MenuItem.Icon>

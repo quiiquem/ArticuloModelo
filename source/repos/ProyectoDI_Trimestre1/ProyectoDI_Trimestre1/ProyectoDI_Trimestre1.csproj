@@ -39,7 +39,7 @@
   <ItemGroup>
     <Folder Include="Backend\Modelos\" />
     <Folder Include="Backend\Servicios\" />
-    <Folder Include="MWM\" />
+    <Folder Include="MVVM\Implementación\" />
     <Folder Include="Recursos\Estilos\" />
   </ItemGroup>
 

@@ -1,6 +1,6 @@
-﻿namespace ProyectoDI_Trimestre1
-{
+﻿namespace ProyectoDI_Trimestre1{
     internal class UCArticulos
+
     {
     }
 }

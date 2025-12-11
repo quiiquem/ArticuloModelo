@@ -11,7 +11,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ProyectoDI_Trimestre1.Frontend.Dialogos;
 using System.Runtime.CompilerServices;
-using ProyectoDI_Trimestre1.Backend.Modelos;
+//using ProyectoDI_Trimestre1.Backend.Modelos;
 
 namespace ProyectoDI_Trimestre1
 {

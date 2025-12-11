@@ -57,7 +57,7 @@
             <!--PasswordBox donde escribe la contraseña-->
             <!--INICIAR SESIÓN-->
             <Button Grid.Row="5" Width="190" Margin="0,5" Content="INICIAR SESIÓN"
-                    Foreground="White" x:Name="btn_login" Click="btn_login_Click"  
+                    Foreground="White" x:Name="btn_login" Click="btn_login_Click" IsDefault="True"
                 Style="{StaticResource MaterialDesignRaisedButton}" mat:ButtonAssist.CornerRadius="12"/>
             <!--Esta línea hace que el botón sea más redondo-->
 

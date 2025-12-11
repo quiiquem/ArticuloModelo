@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using NLog;
-using ProyectoDI_Trimestre1.Backend.Modelos;
+//using ProyectoDI_Trimestre1.Backend.Modelos;
 using ProyectoDI_Trimestre1.Backend.Repositorios;
 using ProyectoDI_Trimestre1.Frontend.Dialogos;
 
@@ -16,7 +16,7 @@ namespace ProyectoDI_Trimestre1
     /// </summary>
     public partial class App : Application 
     {
-        private DiinventarioexamenContext _contexto;
+        //private DiinventarioexamenContext _contexto;
         /// Propiedad para almacenar el proveedor de servicios
         private IServiceProvider _serviceProvider;
 
@@ -29,18 +29,18 @@ namespace ProyectoDI_Trimestre1
             // Configurar los servicios
             ConfigureServices(serviceCollection);
             // Construir el proveedor de servicios
-            _serviceProvider = serviceCollection.BuildServiceProvider();
-            _contexto = new DiinventarioexamenContext();
+            _serviceProvider = serviceCollection.BuildServiceProvider(); //Creador de servicios
+         //   _contexto = new DiinventarioexamenContext(); //Instancia de la BD
         }
 
         private void ConfigureServices(ServiceCollection services)
         {
             // Configurar el contexto de la base de datos
-            services.AddDbContext<DiinventarioexamenContext>();
+         //   services.AddDbContext<DiinventarioexamenContext>();
             // Configurar el servicio de logging
             services.AddLogging(configure => configure.AddConsole());
             // Registrar repositorios genéricos
-            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+          //  services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             // Registrar servicios y vistas aquí
             // En primer lugar registramos la ventana principal
             services.AddSingleton<MainWindow>();
@@ -87,8 +87,5 @@ namespace ProyectoDI_Trimestre1
         }
     }
 
-    internal class GenericRepository<T> : IGenericRepository<T>
-    {
-        // Implementation here
-    }
+  
 }
