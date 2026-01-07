@@ -40,7 +40,7 @@ namespace articulomodelo
 
 
         //Crear Funko
-        private void Crear_Click(object sender, RoutedEventArgs e) //Ventana Dialogo Crear Funko
+        private void Crear_Click(object sender, RoutedEventArgs e) //Ventana Dialogo Crear Articulo
         {
             Window Crear_Articulo_Ventana = new Crear_Articulo(); //poner value a la ventana que quiero mostrar
             Crear_Articulo_Ventana.Show(); //hacer que se vea dicha ventana

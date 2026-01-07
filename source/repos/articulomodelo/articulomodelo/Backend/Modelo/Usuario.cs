@@ -103,5 +103,5 @@ public partial class Usuario
     [ForeignKey("Tipo")]
     [InverseProperty("Usuarios")]
     public virtual Tipousuario TipoNavigation { get; set; } = null!;
-    public string NomUsuario { get; internal set; }
+  
 }

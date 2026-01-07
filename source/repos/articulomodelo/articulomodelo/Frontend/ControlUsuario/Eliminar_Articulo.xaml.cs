@@ -1,4 +1,5 @@
-﻿using System;
+﻿using articulomodelo.Backend.Modelo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,20 @@ namespace articulomodelo.Frontend.ControlUsuario
         public Eliminar_Articulo()
         {
             InitializeComponent();
+            CargarArticulos();
+        }
+    
+       //Cargar Articulos
+        private void CargarArticulos()
+        {
+            using (var db = new DiinventarioexamenContext())
+            {
+                var articulos = db.Modeloarticulos.OrderBy(p => p.Nombre).ToList();
+                eliminar_articulo_item.ItemsSource = articulos;
+            }
         }
     }
+
+
+
 }

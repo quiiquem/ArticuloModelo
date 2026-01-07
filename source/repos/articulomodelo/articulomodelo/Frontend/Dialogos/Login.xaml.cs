@@ -47,7 +47,7 @@ namespace articulomodelo.Frontend.Dialogos
             using (var db = new DiinventarioexamenContext())
             {
                 // Buscar usuario en la BD
-                var user = db.Usuario.FirstOrDefault(u => u.NomUsuario == usuario); //poner campo username 
+                var user = db.Usuario.FirstOrDefault(u => u.Username == usuario); //poner campo username 
 
                 if (user == null)
                 {

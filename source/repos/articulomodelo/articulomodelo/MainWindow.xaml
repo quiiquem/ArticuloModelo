@@ -5,9 +5,6 @@
                  xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
                  xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
                  xmlns:materialDesignIcons="http://materialdesigninxaml.net/winfx/xaml/shared"
-                  ShowCloseButton="False"
-                   ShowMaxRestoreButton="False"
-                 ShowMinButton="False"
                  Title="Tienda modelo articulo"
                  WindowStyle="None"
                  Height="450" Width="800">
