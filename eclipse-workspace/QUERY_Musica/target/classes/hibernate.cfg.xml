@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">mysql</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/musica</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        
+        
+<mapping class="Pojos.Artista"/>
+<mapping class="Pojos.Cancion"/>
+<mapping class="Pojos.Club"/>
+<mapping class="Pojos.Companyia"/>
+<mapping class="Pojos.Pertenece"/>
+<mapping class="Pojos.Grupo"/>
+<mapping class="Pojos.PerteneceId"/>
+    </session-factory>
+</hibernate-configuration>
