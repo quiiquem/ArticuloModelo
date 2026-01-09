@@ -140,3 +140,4 @@ C:\Users\windows10\source\repos\articulomodelo\articulomodelo\obj\Debug\net8.0-w
 C:\Users\windows10\source\repos\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Mensajes\VentanaMensaje.baml
 C:\Users\windows10\source\repos\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\ResultWindow.g.cs
 C:\Users\windows10\source\repos\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\ResultWindow.baml
+C:\Users\windows10\source\repos\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoArticulo.g.cs

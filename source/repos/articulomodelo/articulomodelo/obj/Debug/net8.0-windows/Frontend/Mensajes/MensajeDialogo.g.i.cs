@@ -53,7 +53,7 @@ namespace ProyectoDI_Trimestre1.Frontend.Mensajes {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/articulomodelo;component/frontend/mensajes/mensajedialogo.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/articulomodelo;V1.0.0.0;component/frontend/mensajes/mensajedialogo.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Frontend\Mensajes\MensajeDialogo.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

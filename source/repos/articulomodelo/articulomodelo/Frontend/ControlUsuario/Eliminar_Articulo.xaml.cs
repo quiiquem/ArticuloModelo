@@ -35,6 +35,11 @@ namespace articulomodelo.Frontend.ControlUsuario
                 eliminar_articulo_item.ItemsSource = articulos;
             }
         }
+
+        private void Cancelar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 
 

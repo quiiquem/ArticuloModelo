@@ -95,5 +95,10 @@ namespace articulomodelo.MVVM
             }
             return correcto;
         }
+
+        internal async Task<bool> GuardarArticuloAsync()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

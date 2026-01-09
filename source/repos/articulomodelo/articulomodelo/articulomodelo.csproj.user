@@ -11,6 +11,12 @@
     <Compile Update="Frontend\ControlUsuario\Eliminar_Articulo.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Frontend\Dialogos\DialogoArticulo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Frontend\Dialogos\DialogoModeloArticulo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Frontend\Dialogos\Login.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

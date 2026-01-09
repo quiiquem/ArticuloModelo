@@ -44,6 +44,7 @@
             <!--CONTRASEÑA-->
             <TextBlock Grid.Row="3" FontSize="16" Text="Contraseña:" Margin="5,10" FontWeight="DemiBold"/>
             <!--Texto Contraseña-->
+            <!--No podemos aplicar binding a un password, no tiene dependencias-->
             <PasswordBox x:Name="txt_password" Grid.Row="4" BorderBrush="#5E86FF" Width="260" BorderThickness="1.6" Background="#FAF2FF"
                          FontSize="14" mat:HintAssist.Hint="Escriba su contraseña..." Margin="0,0,0,15"/>
             <!--PasswordBox donde escribe la contraseña-->
