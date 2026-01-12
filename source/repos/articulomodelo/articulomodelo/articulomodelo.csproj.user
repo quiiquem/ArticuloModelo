@@ -23,6 +23,9 @@
     <Compile Update="Frontend\Dialogos\NuevoUsuario.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Frontend\Dialogos\UCArticulos.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ResultWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

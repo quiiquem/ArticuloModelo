@@ -61,7 +61,7 @@ namespace articulomodelo {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/articulomodelo;V1.0.0.0;component/resultwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/articulomodelo;component/resultwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ResultWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

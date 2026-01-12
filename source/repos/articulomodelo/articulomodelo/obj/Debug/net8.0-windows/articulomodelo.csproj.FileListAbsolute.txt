@@ -141,3 +141,14 @@ C:\Users\windows10\source\repos\articulomodelo\articulomodelo\obj\Debug\net8.0-w
 C:\Users\windows10\source\repos\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\ResultWindow.g.cs
 C:\Users\windows10\source\repos\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\ResultWindow.baml
 C:\Users\windows10\source\repos\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoArticulo.g.cs
+C:\Users\windows10\source\repos\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoModeloArticulo.g.cs
+C:\Users\windows10\source\repos\articulomodelo\articulomodelo\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\windows10\source\repos\articulomodelo\articulomodelo\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\windows10\source\repos\articulomodelo\articulomodelo\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\windows10\source\repos\articulomodelo\articulomodelo\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Console.dll
+C:\Users\windows10\source\repos\articulomodelo\articulomodelo\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\windows10\source\repos\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\UCArticulos.g.cs
+C:\Users\windows10\source\repos\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoArticulo.baml
+C:\Users\windows10\source\repos\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\DialogoModeloArticulo.baml
+C:\Users\windows10\source\repos\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\Frontend\Dialogos\UCArticulos.baml
+C:\Users\windows10\source\repos\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\App.baml

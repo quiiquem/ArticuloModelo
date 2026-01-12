@@ -35,9 +35,10 @@ namespace articulomodelo.Frontend.Dialogos
             DataContext = _mvArticulo;
         }
 
+        //Botones
         private async void btnGuardarArticulo_Click(object sender, RoutedEventArgs e) // Guardar Artículo con metodo async
         {
-           if (await _mvArticulo.GuardarArticuloAsync())
+           if (await _mvArticulo.GuardarModeloArticuloAsync())
             {
                 MessageBox.Show("Artículo guardado correctamente");
             }

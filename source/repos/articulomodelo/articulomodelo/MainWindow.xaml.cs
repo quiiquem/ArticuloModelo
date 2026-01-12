@@ -1,4 +1,7 @@
-﻿using articulomodelo.Frontend.ControlUsuario;
+﻿using articulomodelo.Backend.Modelo;
+using articulomodelo.Frontend.ControlUsuario;
+using articulomodelo.Frontend.Dialogos;
+using articulomodelo.MVVM;
 using MahApps.Metro.Controls;
 using System.Windows;
 
@@ -6,9 +9,18 @@ namespace articulomodelo
 {
     public partial class MainWindow : MetroWindow
     {
-        public MainWindow() 
+        private readonly MVArticulo _mvArticulo;
+        private DialogoArticulo _dialogoArticulo;
+        private DialogoModeloArticulo _dialogoModeloArticulo;
+
+        //Constructor MainWindow con las ventanas dialogo inyectadas (ahora si podemos pues pusimos los servicios en App.xaml.cs)
+        public MainWindow(DialogoModeloArticulo dialogoModeloArticulo,
+                          DialogoArticulo dialogoArticulo, MVArticulo mvArticulo)
         {
             InitializeComponent();
+            _dialogoModeloArticulo = dialogoModeloArticulo;
+            _mvArticulo = mvArticulo;
+
         }
 
         //Botones de la barra horizontal azul de arriba
@@ -33,22 +45,26 @@ namespace articulomodelo
             Application.Current.Shutdown(); //cerrar la aplicación
         }
 
-
-
-
         //Botones que abren dialogos (Crear, Borrar, Modificar...)
-
-
-        //Crear Funko
+        //Crear dialogo
         private void Crear_Click(object sender, RoutedEventArgs e) //Ventana Dialogo Crear Articulo
         {
-            Window Crear_Articulo_Ventana = new Crear_Articulo(); //poner value a la ventana que quiero mostrar
-            Crear_Articulo_Ventana.Show(); //hacer que se vea dicha ventana
+
+            //Generar una nueva cada que se inicia para que VM no explote
+            var dialogo = new DialogoModeloArticulo(_mvArticulo); 
+            dialogo.ShowDialog();
         }
 
-        //Crear Borrar Funko
+
+
+        //TODO: hacer uno para articulo
+
+
+
+        //Crear dialogo de borrar
         private void Borrar_Click(object sender, RoutedEventArgs e)
         {
+            //TODO: Implementar VM a la ventana
             Window Eliminar_Articulo_Ventana = new Eliminar_Articulo(); //poner value a la ventana que quiero mostrar
             Eliminar_Articulo_Ventana.Show(); //hacer que se vea dicha ventana
         }

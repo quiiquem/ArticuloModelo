@@ -1,5 +1,7 @@
 ﻿using articulomodelo.Backend.Modelo;
+using articulomodelo.Backend.Servicios;
 using articulomodelo.Frontend.Mensajes;
+using articulomodelo.MVVM;
 using MahApps.Metro.Controls;
 using System.Windows;
 using System.Windows.Controls;
@@ -9,10 +11,17 @@ namespace articulomodelo.Frontend.Dialogos
 
     public partial class Login : MetroWindow
     {
-        public Login()
+
+        //Añadir ventanas en readonly
+        private readonly UsuarioRepository _usuarioRepository;
+        private readonly MainWindow _mainWindow;
+
+        public Login(UsuarioRepository usuarioRepository,
+                    MainWindow mainWindow)
         {
             InitializeComponent();
-          
+            _mainWindow = mainWindow;
+            _usuarioRepository = usuarioRepository;
         }
 
         private void btn_login_Click(object sender, RoutedEventArgs e) //Accion de dar al botón de login
@@ -32,8 +41,8 @@ namespace articulomodelo.Frontend.Dialogos
             if (ValidarLogin(usuario, password)) //Situacion correcta, funciona
             {
                 MensajeInformacion.Mostrar("Login correcto,\nbienvenido " + usuario, "LOGIN EXITOSO");
-                Window mainWindow = new MainWindow();
-                mainWindow.Show();
+                //Abrir mainwindow
+                _mainWindow.Show();
                 this.Close();
             }
             else //Datos incorrectos, no funciona

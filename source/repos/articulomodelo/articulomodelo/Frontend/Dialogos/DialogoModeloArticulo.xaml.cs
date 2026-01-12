@@ -1,4 +1,5 @@
-﻿using articulomodelo.MVVM;
+﻿using articulomodelo.Frontend.Mensajes;
+using articulomodelo.MVVM;
 using MahApps.Metro.Controls;
 using System;
 using System.Collections.Generic;
@@ -21,7 +22,7 @@ namespace articulomodelo.Frontend.Dialogos
     /// </summary>
     public partial class DialogoModeloArticulo : MetroWindow
     {
-        private MVArticulo _mvArticulo; //declarar MVArticulo
+        private readonly MVArticulo _mvArticulo; //declarar MVArticulo
         public DialogoModeloArticulo(MVArticulo mvArticulo)
         {
             InitializeComponent();
@@ -47,14 +48,13 @@ namespace articulomodelo.Frontend.Dialogos
                 bool guardado = await _mvArticulo.GuardarModeloArticuloAsync();
                 if (guardado)
                 {
-                    MessageBox.Show("Modelo de artículo guardado correctamente",
-                                         "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
+                    MensajeInformacion.Mostrar("Modelo de artículo guardado correctamente",
+                                         "Éxito");
                     DialogResult = true; // cerrar ventana indicando éxito
                 }
                 else
                 {
-                    MessageBox.Show("Error al guardar el modelo de artículo",
-                                         "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MensajeError.Mostrar("Error al guardar el modelo de artículo", "Error");
                 }
             }
             catch (Exception ex)
@@ -66,6 +66,7 @@ namespace articulomodelo.Frontend.Dialogos
                 private void btnCancelarModeloArticulo_Click(object sender, RoutedEventArgs e)
                 {
                     DialogResult = false;
+                this.Close();
                 }
 
     }

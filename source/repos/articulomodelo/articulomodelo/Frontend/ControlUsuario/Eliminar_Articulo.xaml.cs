@@ -40,6 +40,16 @@ namespace articulomodelo.Frontend.ControlUsuario
         {
 
         }
+
+        private void Eliminar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Eliminar_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 
 

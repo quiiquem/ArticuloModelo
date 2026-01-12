@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\windows10\source\repos\articulomodelo\articulomodelo\App.xaml
-11948751179
+12839227598
 
-46-133926456
-228913379002
-Frontend\ControlUsuario\Crear_Articulo.xaml;Frontend\ControlUsuario\Editar_Articulo.xaml;Frontend\ControlUsuario\Eliminar_Articulo.xaml;Frontend\Dialogos\DialogoArticulo.xaml;Frontend\Dialogos\DialogoModeloArticulo.xaml;Frontend\Dialogos\Login.xaml;Frontend\Dialogos\NuevoUsuario.xaml;Frontend\Mensajes\MensajeDialogo.xaml;Frontend\Mensajes\VentanaMensaje.xaml;MainWindow.xaml;ResultWindow.xaml;
+47555619405
+233-236694951
+Frontend\ControlUsuario\Crear_Articulo.xaml;Frontend\ControlUsuario\Editar_Articulo.xaml;Frontend\ControlUsuario\Eliminar_Articulo.xaml;Frontend\Dialogos\DialogoArticulo.xaml;Frontend\Dialogos\DialogoModeloArticulo.xaml;Frontend\Dialogos\Login.xaml;Frontend\Dialogos\NuevoUsuario.xaml;Frontend\Dialogos\UCArticulos.xaml;Frontend\Mensajes\MensajeDialogo.xaml;Frontend\Mensajes\VentanaMensaje.xaml;MainWindow.xaml;ResultWindow.xaml;
 
 True
 

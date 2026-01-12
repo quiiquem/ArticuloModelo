@@ -8,97 +8,77 @@ namespace articulomodelo.MVVM
 {
     public class MVArticulo : MVBase
     {
-        #region Campos y propiedades privadas
-        /// <summary>
-        /// Objeto que guarda el modelo de artículo actual
-        /// Está vinculado a la vista para mostrar y editar los datos del artículo
-        /// </summary>
-        private Modeloarticulo _modeloArticulo;
-        /// <summary>
-        /// Repositorio para gestionar las operaciones de datos relacionadas con los modelos de artículo
-        /// </summary>
-        private ModeloArticuloRepository _modeloArticuloRepository;
-        /// <summary>
-        /// Repositorio para gestionar las operaciones de datos relacionadas con los tipos de artículo
-        /// </summary>
-        private TipoArticuloRepository _tipoArticuloRepository;
-        /// <summary>
-        /// lista de tipos de artículos disponibles
-        /// </summary>
-        private List<Tipoarticulo> _listaTipoArticulos;
-        #endregion
-        #region Getters y Setters
-        public List<Tipoarticulo> listaTiposArticulos => _listaTipoArticulos;
-        public Modeloarticulo modeloArticulo
-        {
-            get => _modeloArticulo;
-            set => SetProperty(ref _modeloArticulo, value);
-        }
-        #endregion
-        // Aquí puedes añadir propiedades y métodos específicos para el ViewModel de Artículo
-        public MVArticulo(ModeloArticuloRepository modeloArticuloRepository,
-                          TipoArticuloRepository tipoArticuloRepository)
-        {
-            _modeloArticuloRepository = modeloArticuloRepository;
-            _tipoArticuloRepository = tipoArticuloRepository;
-            _modeloArticulo = new Modeloarticulo();
-        }
-
-        public async Task Inicializa()
-        {
-            try
+            #region Campos y propiedades privadas
+            /// <summary>
+            /// Objeto que guarda el modelo de artículo actual
+            /// Está vinculado a la vista para mostrar y editar los datos del artículo
+            /// </summary>
+            private Modeloarticulo _modeloArticulo;
+            /// <summary>
+            /// Repositorio para gestionar las operaciones de datos relacionadas con los modelos de artículo
+            /// </summary>
+            private ModeloArticuloRepository _modeloArticuloRepository;
+            /// <summary>
+            /// Repositorio para gestionar las operaciones de datos relacionadas con los tipos de artículo
+            /// </summary>
+            private TipoArticuloRepository _tipoArticuloRepository;
+            /// <summary>
+            /// lista de tipos de artículos disponibles
+            /// </summary>
+            private List<Tipoarticulo> _listaTipoArticulos;
+            #endregion
+            #region Getters y Setters
+            public List<Tipoarticulo> listaTiposArticulos => _listaTipoArticulos;
+            public Modeloarticulo modeloArticulo
             {
-                _listaTipoArticulos = await GetAllAsync<Tipoarticulo>(_tipoArticuloRepository);
+                get => _modeloArticulo;
+                set => SetProperty(ref _modeloArticulo, value);
             }
-            catch (Exception ex)
+            #endregion
+            // Aquí puedes añadir propiedades y métodos específicos para el ViewModel de Artículo
+            public MVArticulo(ModeloArticuloRepository modeloArticuloRepository,
+                              TipoArticuloRepository tipoArticuloRepository)
             {
-                MensajeError.Mostrar("GESTIÓN ARTÍCULOS", "Error al cargar los tipos de artículos\n" +
-                    "No puedo conectar con la base de datos", 0);
+                _modeloArticuloRepository = modeloArticuloRepository;
+                _tipoArticuloRepository = tipoArticuloRepository;
+                _modeloArticulo = new Modeloarticulo();
             }
-        }
 
-        private async void CargarModeloArticuloAsync(int idModeloArticulo)
-        {
-            try
+            public async Task Inicializa()
             {
-                modeloArticulo = await _modeloArticuloRepository.GetByIdAsync(idModeloArticulo);
-            }
-            catch (Exception ex)
-            {
-                MensajeError.Mostrar("GESTIÓN ARTÍCULOS", "Error al cargar el modelo de artículo\n" +
-                    "No puedo conectar con la base de datos", 0);
-            }
-        }
-
-        
-
-        public async Task<bool> GuardarModeloArticuloAsync()
-        {
-            bool correcto = true;
-            try
-            {
-                if (modeloArticulo.Idmodeloarticulo == 0)
+                try
                 {
-                    // Nuevo modelo de artículo
-                    await _modeloArticuloRepository.AddAsync(modeloArticulo);
+                    _listaTipoArticulos = await GetAllAsync<Tipoarticulo>(_tipoArticuloRepository);
                 }
-                else
+                catch (Exception ex)
                 {
-                    // Actualizar modelo de artículo existente
-                    await _modeloArticuloRepository.UpdateAsync(modeloArticulo);
+                    MensajeError.Mostrar("GESTIÓN ARTÍCULOS", "Error al cargar los tipos de artículos\n" +
+                        "No puedo conectar con la base de datos", 0);
                 }
             }
-            catch (Exception ex)
-            {
-                // Capturamos la excepción y la registramos en el log
-                correcto = false;
-            }
-            return correcto;
-        }
 
-        internal async Task<bool> GuardarArticuloAsync()
-        {
-            throw new NotImplementedException();
+            public async Task<bool> GuardarModeloArticuloAsync()
+            {
+                bool correcto = true;
+                try
+                {
+                    if (modeloArticulo.Idmodeloarticulo == 0)
+                    {
+                        // Nuevo modelo de artículo
+                        await _modeloArticuloRepository.AddAsync(modeloArticulo);
+                    }
+                    else
+                    {
+                        // Actualizar modelo de artículo existente
+                        await _modeloArticuloRepository.UpdateAsync(modeloArticulo);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Capturamos la excepción y la registramos en el log
+                    correcto = false;
+                }
+                return correcto;
+            }
         }
     }
-}

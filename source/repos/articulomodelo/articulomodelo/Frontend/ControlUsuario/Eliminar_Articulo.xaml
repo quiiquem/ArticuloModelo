@@ -32,7 +32,7 @@
               FontSize="16" BorderBrush="Black" BorderThickness="2"
                         DisplayMemberPath="Nombre" SelectedValuePath="Id"/>
 
-        <Button x:Name="Eliminar" Click="Eliminar_Click" Grid.Row="3" 
+        <Button x:Name="Eliminar" Click="Eliminar_Click_1" Grid.Row="3" 
                 HorizontalAlignment="Center" Width="240" Height="60" Margin="0,20" Background="Red" 
                 Content="ELIMINAR" Foreground="White" FontSize="30" FontWeight="Bold"/>
 

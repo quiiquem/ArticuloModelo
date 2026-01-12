@@ -9,7 +9,7 @@
       xmlns:mat="http://materialdesigninxaml.net/winfx/xaml/themes"
               x:Name="diagModeloArticulo"
       Loaded="diagModeloArticulo_Loaded"
-        Title="DialogoModeloArticulo" Height="600" Width="640">
+        Title="DialogoModeloArticulo" Height="460" Width="640">
     <Grid>
         <Grid Margin="10">
             <!--
@@ -19,23 +19,11 @@
         modelo
         tipo(clave ajena=conbobox)
         -->
-            <!-- Rectangulo inicial -->
-            <Grid Width="Auto"
-            Height="100"
-            Margin="0,0,0,20"
-            VerticalAlignment="Top">
-                <Rectangle
-             Fill="#454545"/>
-                <TextBlock
-              Text="INSERTAR MODELO ARTICULO"
-              FontSize="30"
-              HorizontalAlignment="Center"
-              VerticalAlignment="Center"
-              Foreground="White"/>
-            </Grid>
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
@@ -45,30 +33,19 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-
+<!--Titulo-->
+                <TextBox Grid.Row="0" Grid.ColumnSpan="2" TextAlignment="Center" Text="INSERTAR MODELO ARTICULO" Grid.Column="0"
+                         Height="100" VerticalContentAlignment="Center" FontSize="30" Width="600" Background="Gray" Foreground="White"/>
 
                 <!--NOMBRE-->
+                <TextBlock Foreground="Black" Text="Nombre (*)" Grid.Row="1" FontSize="15" FontWeight="Bold"
+                           Margin="20,10"/>
                 <TextBox
             x:Name="txtNombre"
             Text="{Binding modeloArticulo.Nombre,ValidatesOnDataErrors=True,
             NotifyOnValidationError=True, UpdateSourceTrigger=PropertyChanged}"
-            Style="{StaticResource MaterialDesignTextBox}"
             mat:HintAssist.Hint="Nombre*"
             
-            FontWeight="Bold"
-            Grid.Row="1"
-            Grid.Column="0"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Center"
-            Width="200"
-            Height="40"
-            Margin="10"
-            Background="LightGray"/>
-
-                <!--TIPO-->
-                <ComboBox
-            Style="{StaticResource MaterialDesignComboBox}"
-            mat:HintAssist.Hint="Tipo*"
             FontWeight="Bold"
             Grid.Row="2"
             Grid.Column="0"
@@ -77,21 +54,41 @@
             Width="200"
             Height="40"
             Margin="10"
-            BorderBrush="Gray"
+            Background="LightGray"
+                     BorderBrush="Black"
+ BorderThickness="2"/>
+
+                <!--TIPO-->
+                <TextBlock Foreground="Black" Text="Tipo (*)" Grid.Row="3"  FontSize="15" FontWeight="Bold"
+                           Margin="20,0"/>
+
+                <ComboBox
+            mat:HintAssist.Hint="Tipo*"
+            FontWeight="Bold"
+            Grid.Row="3"
+            Grid.Column="0"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Width="200"
+            Height="40"
+            Margin="10,30"
+            BorderBrush="Black"
             x:Name="cmbTipoArticulo"
             ItemsSource="{Binding listaTiposArticulos}"
             SelectedItem="{Binding modeloArticulo.TipoNavigation,ValidatesOnDataErrors=True,
             NotifyOnValidationError=True}"
-            DisplayMemberPath="Nombre"/>
+            DisplayMemberPath="Nombre"
+                    />
                 <!--para que salga solo el nombre-->
                 <!--DESCRIPCION-->
+                <TextBlock Foreground="Black" Text="Descripción (*)" Grid.Row="4" HorizontalAlignment="Center" FontSize="15" FontWeight="Bold"
+                  Margin="20,0"/>
                 <TextBox
             x:Name="txtDescripcion"
             Text="{Binding modeloArticulo.Descripcion}"
-            Style="{StaticResource MaterialDesignTextBox}"
             mat:HintAssist.Hint="Descripcion*"
             FontWeight="Bold"
-            Grid.Row="3"
+            Grid.Row="4"
             Grid.Column="0"
             Grid.ColumnSpan="2"
             VerticalAlignment="Center"
@@ -99,30 +96,17 @@
             Width="200"
             Height="40"
             Margin="10"
-            Background="LightGray"/>
+            Background="LightGray"
+                     BorderBrush="Black"
+ BorderThickness="2"/>
 
                 <!--MARCA-->
+                <TextBlock Foreground="Black" Text="Marca (*)" Grid.Row="1" Grid.Column="1" FontSize="15" FontWeight="Bold"
+            Margin="20,10"/>
                 <TextBox
             x:Name="txtMarca"
             Text="{Binding modeloArticulo.Marca}"
-            Style="{StaticResource MaterialDesignTextBox}"
             mat:HintAssist.Hint="Marca*"
-            FontWeight="Bold"
-            Grid.Row="1"
-            Grid.Column="1"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Center"
-            Width="200"
-            Height="40"
-            Margin="10"
-            Background="LightGray"/>
-
-                <!--MODELO-->
-                <TextBox
-            x:Name="txtModelo"
-            Text="{Binding modeloArticulo.Modelo}"
-            Style="{StaticResource MaterialDesignTextBox}"
-            mat:HintAssist.Hint="Modelo*"
             FontWeight="Bold"
             Grid.Row="2"
             Grid.Column="1"
@@ -132,11 +116,32 @@
             Height="40"
             Margin="10"
             Background="LightGray"
+                     BorderBrush="Black"
+ BorderThickness="2"/>
+
+                <!--MODELO-->
+                <TextBlock Foreground="Black" Text="Modelo" Grid.Row="3" Grid.Column="1" FontSize="15" FontWeight="Bold"
+       Margin="20,0"/>
+                <TextBox
+            x:Name="txtModelo"
+            Text="{Binding modeloArticulo.Modelo}"
+            mat:HintAssist.Hint="Modelo*"
+            FontWeight="Bold"
+            Grid.Row="3"
+            Grid.Column="1"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Width="200"
+            Height="40"
+            Margin="10"
+            Background="LightGray"
+                    BorderBrush="Black"
+                    BorderThickness="2"
             />
 
                 <!-- BOTON AÑADIR-->
                 <Button
-            Grid.Row="4"
+            Grid.Row="5"
             Grid.Column="0"
             Content="Añadir"
             VerticalAlignment="Center"
@@ -149,7 +154,7 @@
 
                 <!--BOTON CANCELAR-->
                 <Button
-            Grid.Row="4"
+            Grid.Row="5"
             Grid.Column="1"
             Content="Cancelar"
             VerticalAlignment="Center"
