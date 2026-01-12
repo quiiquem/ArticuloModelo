@@ -6,11 +6,14 @@
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/musica</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        
         
         
 <mapping class="Pojos.Artista"/>
 <mapping class="Pojos.Cancion"/>
 <mapping class="Pojos.Club"/>
+<mapping class="Pojos.Disco"/>
 <mapping class="Pojos.Companyia"/>
 <mapping class="Pojos.Pertenece"/>
 <mapping class="Pojos.Grupo"/>

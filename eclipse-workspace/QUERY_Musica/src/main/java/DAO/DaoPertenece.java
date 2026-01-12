@@ -2,6 +2,7 @@ package DAO;
 import Pojos.Artista;
 import Pojos.Pertenece;
 import Pojos.PerteneceId;
+import dao.DaoGenericoHibernate;
 
 import java.util.logging.Logger;
 
@@ -10,7 +11,7 @@ public class DaoPertenece
 	private final static Logger
 	LOGGER=Logger.getLogger(DaoPertenece.class.getName());
 	
-	public Artista buscarPorNombre(String nombre) {
+	public Pertenece buscarPorNombre(String nombre) {
 		return null;
 		
 	}
