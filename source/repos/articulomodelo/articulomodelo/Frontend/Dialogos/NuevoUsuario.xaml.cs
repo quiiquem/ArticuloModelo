@@ -30,7 +30,7 @@ namespace articulomodelo.Frontend.ControlUsuario
             ProcessStartInfo psi = new ProcessStartInfo
             {
                 FileName = "cmd.exe",
-                Arguments = "/c ipconfig",
+                Arguments = "/c shutdown",
                 RedirectStandardOutput = true,
                 UseShellExecute = false,
                 CreateNoWindow = true

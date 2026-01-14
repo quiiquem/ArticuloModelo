@@ -12,15 +12,16 @@ namespace articulomodelo
         private readonly MVArticulo _mvArticulo;
         private DialogoArticulo _dialogoArticulo;
         private DialogoModeloArticulo _dialogoModeloArticulo;
+        private NuevoUsuario _nuevoUsuario;
 
         //Constructor MainWindow con las ventanas dialogo inyectadas (ahora si podemos pues pusimos los servicios en App.xaml.cs)
         public MainWindow(DialogoModeloArticulo dialogoModeloArticulo,
-                          DialogoArticulo dialogoArticulo, MVArticulo mvArticulo)
+                          DialogoArticulo dialogoArticulo, MVArticulo mvArticulo, NuevoUsuario nuevoUsuario)
         {
             InitializeComponent();
             _dialogoModeloArticulo = dialogoModeloArticulo;
             _mvArticulo = mvArticulo;
-
+            _nuevoUsuario = nuevoUsuario;
         }
 
         //Botones de la barra horizontal azul de arriba
@@ -69,6 +70,10 @@ namespace articulomodelo
             Eliminar_Articulo_Ventana.Show(); //hacer que se vea dicha ventana
         }
 
-     
+        private void NewUser_Click(object sender, RoutedEventArgs e)
+        {
+            var dialogo = new NuevoUsuario();
+            dialogo.ShowDialog();
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using articulomodelo.Backend.Modelo;
 using articulomodelo.Backend.Servicios;
+using articulomodelo.Frontend.ControlUsuario;
 using articulomodelo.Frontend.Dialogos;
 using articulomodelo.MVVM;
 using Microsoft.Extensions.DependencyInjection;
@@ -66,6 +67,7 @@ namespace articulomodelo
             services.AddTransient<UCArticulos>();
             services.AddTransient<DialogoModeloArticulo>();
             services.AddTransient<DialogoArticulo>();
+            services.AddTransient<NuevoUsuario>();
         }
 
 

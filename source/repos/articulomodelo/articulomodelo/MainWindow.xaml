@@ -68,7 +68,7 @@
                         <materialDesign:PackIcon Kind="BoxEdit"/>
                     </MenuItem.Icon>
                 </MenuItem>
-                <MenuItem Header="Localizar Producto">
+                <MenuItem Header="Añadir Usuario" Click="NewUser_Click">
                     <MenuItem.Icon>
                         <materialDesign:PackIcon Kind="Location"/>
                     </MenuItem.Icon>
