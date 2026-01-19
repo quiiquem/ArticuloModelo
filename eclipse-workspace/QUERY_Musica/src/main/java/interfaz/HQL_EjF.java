@@ -6,37 +6,34 @@ import java.util.Scanner;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import Pojos.Companyia;
+import excepciones.BusinessException;
 import DAO.DaoCompanyia;
 import hibernate.UtilesHibernate;
 
 public class HQL_EjF {
 
-public static void main(String []args){
-	
-	SessionFactory s = UtilesHibernate.getSessionFactory();
+	public static void main(String[] args) throws BusinessException {
 
-	try {
-		SessionFactory factory = UtilesHibernate.getSessionFactory();
-		
-		Session sesion = factory.getCurrentSession();
-		
-		sesion.beginTransaction();
-		
-		DaoCompanyia daoCompanyia = new DaoCompanyia();
-		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Inserta el nombre de la compañia");
-		String nom = sc.nextLine();
-		
-		List<Companyia> lista = daoCompanyia.Listar_Tel_Fax(nom);
-		for(Companyia a : lista) {
-			System.out.println("Telefono: "+" FAX: ");
+
+		Companyia companyia = new Companyia();
+
+		UtilesHibernate.openSession();
+		System.out.println("Inserta el nombre de la compañía:");
+		String nombre = sc.nextLine();
+		DaoCompanyia daoCompanyia = new DaoCompanyia();
+		companyia = daoCompanyia.buscarPorNombre(nombre);
+
+		if (companyia == null) {
+			System.out.println("No se ha encontrado la compañía");
 		}
-		
-		
-		
-	} catch (Exception e) {
-		e.printStackTrace();
+
+		else {
+			System.out.println("Compañía encontrada: " + companyia.getNombre() + " - " + companyia.getTfno() + " - "
+					+ companyia.getFax());
+
+		}
+
+		sc.close();
 	}
-}
 }

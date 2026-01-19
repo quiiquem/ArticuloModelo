@@ -23,22 +23,21 @@ public class DaoCompanyia extends DaoGenericoHibernate<Companyia, Integer> {
 	private final static Logger LOGGER = Logger.getLogger(DaoDisco.class.getName());
 
 
-	public List<Companyia> Listar_Tel_Fax(String nombre) throws BusinessException{
-		List<Companyia> result = new ArrayList<Companyia>();
+	public Companyia buscarPorNombre(String nombre) {
 
-		// Iniciar session de hibernate
+		Companyia result = new Companyia();
+
 		Session s = UtilesHibernate.getSessionFactory().getCurrentSession();
-	
+
 		try {
 			s.beginTransaction();
 
-			String hql = "SELECT tfno,fax FROM Companyia c WHERE c.nombre=:nom"; // Cadena SQL
-			Query q = s.createQuery(hql); // Inicio de query
-			q.setParameter("nom", nombre); // Poner el parametro
-			result = (List<Companyia>) q.uniqueResult(); //Resultado: Un Query con resultado unico
-			s.getTransaction().commit(); //Comete los cambios en la BD
-			
-			//Exceptiones
+			String hql = "SELECT c FROM Companyia c WHERE c.nombre=:nom";
+			Query q = s.createQuery(hql);
+			q.setParameter("nom", nombre);
+			result = (Companyia) q.uniqueResult();
+			s.getTransaction().commit();
+
 		} catch (ConstraintViolationException cve) {
 			try {
 				s.getTransaction().rollback();
@@ -46,6 +45,6 @@ public class DaoCompanyia extends DaoGenericoHibernate<Companyia, Integer> {
 				e.getStackTrace();
 			}
 		}
-		return result; //Que lo devuelva
+		return result;
 	}
 }
