@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="articulomodelo.Frontend.ControlUsuario.UCListadoModelo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:articulomodelo.Frontend.ControlUsuario"
+        mc:Ignorable="d"
+        x:Name="usuario_listaAM"
+        Loaded="usuario_listaAM_loaded"
+        d:DesignHeight="450" d:DesignWidth="800">
+    <DockPanel>
+        <Grid DockPanel.Dock="Top">
+            <Border BorderThickness="2" BorderBrush="Black" Width="550" Height="80" Margin="0,10" Background="CornflowerBlue">
+                <TextBlock Text="Lista Modelo Articulo" FontSize="30"  TextAlignment="Center" Margin="0,20" 
+        Width="550" FontWeight="DemiBold" Foreground="White" Height="80"/>
+            </Border>
+        </Grid>
+        
+        <!--Listas-->
+        <Grid>
+            <DataGrid ItemsSource="{Binding listaModelos}" AutoGenerateColumns="False"
+              CanUserAddRows="False" ColumnWidth="*" Background="AntiqueWhite">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="NOMBRE" Binding="{Binding Nombre}" IsReadOnly="True"/>
+                    <DataGridTemplateColumn Header="MARCA - MODELO" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Marca}" FontWeight="Bold"/>
+                                    <TextBlock Text=" - " />
+                                    <TextBlock Text="{Binding Modelo}"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn Header="CANTIDAD DE ARTÍCULOS"
+                    Binding="{Binding Articulos.Count}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="TIPO DE MODELO"
+                    Binding="{Binding TipoNavigation.Nombre}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="DESCRIPCIÓN"
+                    Binding="{Binding Descripcion}" IsReadOnly="True"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </DockPanel>
+</UserControl>
