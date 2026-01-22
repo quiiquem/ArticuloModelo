@@ -27,7 +27,7 @@ namespace articulomodelo.Frontend.ControlUsuario
             _vmArticulo = vmArticulo;
         }
 
-        private async void usuario_lista_loaded(object sender, RoutedEventArgs e)
+        private async void usuario_listaArticulos_Loaded(object sender, RoutedEventArgs e)
         {
             await _vmArticulo.InicializarArticulos();
             DataContext = _vmArticulo;

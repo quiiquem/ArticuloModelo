@@ -68,7 +68,7 @@ namespace articulomodelo.MVVM
         {
             try
             {
-                _listaUsuario = await _usuarioRepository.GetAllWithRelationsAsync(); // ← Cambiar esta línea
+                _listaUsuario = await _usuarioRepository.GetAllWithRelationsAsync(); 
                 OnPropertyChanged(nameof(listaUsuario));
             }
             catch (Exception ex)

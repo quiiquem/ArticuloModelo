@@ -91,7 +91,7 @@ namespace articulomodelo.MVVM
         {
             try
             {
-                _listaArticulos = await GetAllAsync<Articulo>(_articuloRepository);
+                _listaArticulos = await _articuloRepository.GetAllWithRelationsAsync();
                 OnPropertyChanged(nameof(listaArticulos));
             }
             catch (Exception ex)

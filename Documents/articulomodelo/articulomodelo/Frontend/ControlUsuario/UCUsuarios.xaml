@@ -12,32 +12,16 @@
         <!-- Contenido principal -->
         <DockPanel>
             <!-- Encabezado -->
-            <Border DockPanel.Dock="Top" 
-                    BorderThickness="2" 
-                    BorderBrush="Black" 
-                    Background="CornflowerBlue"
-                    Padding="20"
-                    Margin="10">
-                <TextBlock Text="Lista Usuarios" 
-                           FontSize="30"  
-                           TextAlignment="Center" 
-                           FontWeight="DemiBold" 
-                           Foreground="White"
-                           VerticalAlignment="Center"/>
+            <Border DockPanel.Dock="Top" BorderThickness="2"  BorderBrush="Black" 
+  Background="CornflowerBlue" Padding="20" Margin="10">
+ <TextBlock Text="Lista Usuarios" FontSize="30"  TextAlignment="Center" 
+  FontWeight="DemiBold" Foreground="White" VerticalAlignment="Center"/>
             </Border>
 
             <!-- DataGrid con scroll PROPIO -->
-            <DataGrid Margin="10"
-                      ItemsSource="{Binding listaUsuario}" 
-                      AutoGenerateColumns="False" 
-                      MinColumnWidth="100"
-                      CanUserAddRows="False" 
-                      ColumnWidth="Auto" 
-                      IsReadOnly="True" 
-                      Background="AntiqueWhite"
-                      ScrollViewer.CanContentScroll="True"
-                      ScrollViewer.VerticalScrollBarVisibility="Auto"
-                      ScrollViewer.HorizontalScrollBarVisibility="Auto">
+            <DataGrid Margin="10" ItemsSource="{Binding listaUsuario}" AutoGenerateColumns="False" 
+          MinColumnWidth="100" CanUserAddRows="False" ColumnWidth="Auto" IsReadOnly="True" 
+                      Background="AntiqueWhite">
                 <DataGrid.Columns>
                     <!--USERNAME-->
                     <DataGridTextColumn Header="USERNAME" Binding="{Binding Username}"/>
@@ -63,6 +47,13 @@
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
                 </DataGrid.Columns>
+                
+                <!--Poner RowDetails DEBAJO de los columns-->
+                <DataGrid.RowDetailsTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="test" Margin="10" FontStyle="Italic" Foreground="Gray"/>
+                    </DataTemplate>
+                </DataGrid.RowDetailsTemplate>
             </DataGrid>
         </DockPanel>
 

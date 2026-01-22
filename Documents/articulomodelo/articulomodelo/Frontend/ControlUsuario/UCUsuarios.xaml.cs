@@ -27,18 +27,16 @@ namespace articulomodelo.Frontend.ControlUsuario
             _vmUsuario = vmUsuario;
         }
 
+
+        //TODO: Mover lo del overlay de carga al proyecto intermodular, aqui no es 'necesario' (no lo ha pedido)
         private async void usuario_listaUsuario_loaded(object sender, RoutedEventArgs e)
         {
-            OverlayCargando.Visibility = Visibility.Visible; // Mostrar
-
-            // Pequeño delay para que el UI se renderice
+            OverlayCargando.Visibility = Visibility.Visible; 
             await Task.Delay(50);
-
-            // Cargar datos
             await _vmUsuario.InicializarUsuarios();
             this.DataContext = _vmUsuario;
 
-            OverlayCargando.Visibility = Visibility.Collapsed; // Ocultar
+            OverlayCargando.Visibility = Visibility.Collapsed; 
         }
     }
 }

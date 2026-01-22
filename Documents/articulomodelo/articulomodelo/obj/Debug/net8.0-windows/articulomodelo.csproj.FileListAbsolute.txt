@@ -780,7 +780,6 @@ C:\Users\windows10\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-wind
 C:\Users\windows10\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\articulomodelo.AssemblyInfoInputs.cache
 C:\Users\windows10\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\articulomodelo.AssemblyInfo.cs
 C:\Users\windows10\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\articulomodelo.csproj.CoreCompileInputs.cache
-C:\Users\windows10\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\articulomodelo.sourcelink.json
 C:\Users\windows10\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\articulo.8930B96D.Up2Date
 C:\Users\windows10\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\articulomodelo.dll
 C:\Users\windows10\Documents\articulomodelo\articulomodelo\obj\Debug\net8.0-windows\refint\articulomodelo.dll

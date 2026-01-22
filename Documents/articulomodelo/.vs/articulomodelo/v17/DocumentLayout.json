@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\ucusuarios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\backend\\repositorios\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\backend\\repositorios\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\backend\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\backend\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\ucarticulos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\ucarticulos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\mvvm\\vmarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\mvvm\\vmarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\mvvm\\vmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,8 +27,36 @@
       "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\ucusuarios.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\backend\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\backend\\modelo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\backend\\repositorios\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\backend\\repositorios\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\ucarticulos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\ucarticulos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\backend\\modelo\\diinventarioexamencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\backend\\modelo\\diinventarioexamencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\backend\\modelo\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\backend\\modelo\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\backend\\repositorios\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\backend\\repositorios\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\backend\\modelo\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\backend\\modelo\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\uclistadomodelo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\uclistadomodelo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -31,44 +67,16 @@
       "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\mvvm\\vmarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\mvvm\\vmarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\uclistadomodelo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\uclistadomodelo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\mvvm\\vmmodeloarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\mvvm\\vmmodeloarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\ucarticulos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\ucarticulos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\backend\\modelo\\modeloarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\backend\\modelo\\modeloarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\backend\\modelo\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\backend\\modelo\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\frontend\\controlusuario\\ucarticulos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\frontend\\controlusuario\\ucarticulos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\backend\\modelo\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|solutionrelative:articulomodelo\\backend\\modelo\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C708C62A-C10F-47AC-B413-80F795777D30}|articulomodelo\\articulomodelo.csproj|c:\\users\\windows10\\documents\\articulomodelo\\articulomodelo\\backend\\modelo\\espacio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -92,7 +100,7 @@
         },
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -120,20 +128,84 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Repositorios\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "articulomodelo\\Backend\\Repositorios\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Repositorios\\UsuarioRepository.cs",
-              "RelativeToolTip": "articulomodelo\\Backend\\Repositorios\\UsuarioRepository.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAcwKEAAAABAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Repositorios\\ArticuloRepository.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\Backend\\Repositorios\\ArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Repositorios\\ArticuloRepository.cs",
+              "RelativeToolTip": "articulomodelo\\Backend\\Repositorios\\ArticuloRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T08:31:43.474Z",
+              "WhenOpened": "2026-01-22T09:17:08.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Usuario.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\Backend\\Modelo\\Usuario.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Usuario.cs",
+              "RelativeToolTip": "articulomodelo\\Backend\\Modelo\\Usuario.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T09:16:00.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UCArticulos.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml.cs",
+              "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwB0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T09:12:00.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Articulo.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\Backend\\Modelo\\Articulo.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Articulo.cs",
+              "RelativeToolTip": "articulomodelo\\Backend\\Modelo\\Articulo.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T09:10:31.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VMArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMArticulo.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\MVVM\\VMArticulo.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMArticulo.cs",
+              "RelativeToolTip": "articulomodelo\\MVVM\\VMArticulo.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAF0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T07:31:27.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "articulomodelo\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\MainWindow.xaml",
+              "RelativeToolTip": "articulomodelo\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-22T07:35:14.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "articulomodelo\\AssemblyInfo.cs",
@@ -141,18 +213,29 @@
               "RelativeToolTip": "articulomodelo\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T08:21:44.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T08:21:44.944Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "UCArticulos.xaml",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
+              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
+              "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-22T07:28:28.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "VMUsuario.cs",
               "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMUsuario.cs",
               "RelativeDocumentMoniker": "articulomodelo\\MVVM\\VMUsuario.cs",
               "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMUsuario.cs",
               "RelativeToolTip": "articulomodelo\\MVVM\\VMUsuario.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAgwEcAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAgwEYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-22T07:46:38.04Z",
               "EditorCaption": ""
@@ -171,135 +254,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "articulomodelo\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\MainWindow.xaml.cs",
-              "RelativeToolTip": "articulomodelo\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAuwFMAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T07:35:11.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Usuario.cs",
-              "RelativeDocumentMoniker": "articulomodelo\\Backend\\Modelo\\Usuario.cs",
-              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Usuario.cs",
-              "RelativeToolTip": "articulomodelo\\Backend\\Modelo\\Usuario.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAQwGYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T07:30:17.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UCArticulos.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml.cs",
-              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml.cs",
-              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml.cs",
-              "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAswB8AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T07:30:48.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UCUsuarios.xaml.cs",
               "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCUsuarios.xaml.cs",
               "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCUsuarios.xaml.cs",
               "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCUsuarios.xaml.cs",
               "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCUsuarios.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAswCYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T07:40:34.538Z",
+              "WhenOpened": "2026-01-22T09:29:34.928Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "VMArticulo.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMArticulo.cs",
-              "RelativeDocumentMoniker": "articulomodelo\\MVVM\\VMArticulo.cs",
-              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMArticulo.cs",
-              "RelativeToolTip": "articulomodelo\\MVVM\\VMArticulo.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAqwIEAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "DiinventarioexamenContext.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\DiinventarioexamenContext.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\Backend\\Modelo\\DiinventarioexamenContext.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\DiinventarioexamenContext.cs",
+              "RelativeToolTip": "articulomodelo\\Backend\\Modelo\\DiinventarioexamenContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T07:31:27.645Z",
+              "WhenOpened": "2026-01-22T09:19:10.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "articulomodelo\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\MainWindow.xaml",
-              "RelativeToolTip": "articulomodelo\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-22T07:35:14.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "VMModeloArticulo.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMModeloArticulo.cs",
-              "RelativeDocumentMoniker": "articulomodelo\\MVVM\\VMModeloArticulo.cs",
-              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMModeloArticulo.cs",
-              "RelativeToolTip": "articulomodelo\\MVVM\\VMModeloArticulo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T07:47:10.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Modeloarticulo.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Modeloarticulo.cs",
-              "RelativeDocumentMoniker": "articulomodelo\\Backend\\Modelo\\Modeloarticulo.cs",
-              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Modeloarticulo.cs",
-              "RelativeToolTip": "articulomodelo\\Backend\\Modelo\\Modeloarticulo.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T07:47:17.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UCListadoModelo.xaml",
-              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml",
-              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml",
-              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml",
-              "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-22T07:47:39.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\App.xaml.cs",
-              "RelativeDocumentMoniker": "articulomodelo\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\App.xaml.cs",
-              "RelativeToolTip": "articulomodelo\\App.xaml.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAowHEAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T07:38:47.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "Rol.cs",
               "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Rol.cs",
               "RelativeDocumentMoniker": "articulomodelo\\Backend\\Modelo\\Rol.cs",
@@ -312,7 +293,81 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Repositorios\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\Backend\\Repositorios\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Repositorios\\UsuarioRepository.cs",
+              "RelativeToolTip": "articulomodelo\\Backend\\Repositorios\\UsuarioRepository.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAIwJIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T08:31:43.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\MainWindow.xaml.cs",
+              "RelativeToolTip": "articulomodelo\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T09:11:05.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UCListadoModelo.xaml",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml",
+              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml",
+              "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCListadoModelo.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-22T09:12:00.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VMModeloArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMModeloArticulo.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\MVVM\\VMModeloArticulo.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\MVVM\\VMModeloArticulo.cs",
+              "RelativeToolTip": "articulomodelo\\MVVM\\VMModeloArticulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T07:47:10.18Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "Modeloarticulo.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Modeloarticulo.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\Backend\\Modelo\\Modeloarticulo.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Modeloarticulo.cs",
+              "RelativeToolTip": "articulomodelo\\Backend\\Modelo\\Modeloarticulo.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T07:47:17.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\App.xaml.cs",
+              "RelativeDocumentMoniker": "articulomodelo\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\App.xaml.cs",
+              "RelativeToolTip": "articulomodelo\\App.xaml.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowHEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T07:38:47.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Espacio.cs",
               "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Espacio.cs",
               "RelativeDocumentMoniker": "articulomodelo\\Backend\\Modelo\\Espacio.cs",
@@ -320,33 +375,7 @@
               "RelativeToolTip": "articulomodelo\\Backend\\Modelo\\Espacio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T07:29:50.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UCArticulos.xaml",
-              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
-              "RelativeDocumentMoniker": "articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
-              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
-              "RelativeToolTip": "articulomodelo\\Frontend\\ControlUsuario\\UCArticulos.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-22T07:28:28.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Articulo.cs",
-              "RelativeDocumentMoniker": "articulomodelo\\Backend\\Modelo\\Articulo.cs",
-              "ToolTip": "C:\\Users\\windows10\\Documents\\articulomodelo\\articulomodelo\\Backend\\Modelo\\Articulo.cs",
-              "RelativeToolTip": "articulomodelo\\Backend\\Modelo\\Articulo.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAADwv1wAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T07:27:13.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T07:29:50.979Z"
             }
           ]
         },
