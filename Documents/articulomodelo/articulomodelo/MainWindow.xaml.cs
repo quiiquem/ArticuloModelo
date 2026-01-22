@@ -14,10 +14,12 @@ namespace articulomodelo
         private readonly VMUsuario _mvUsuario;
         private UCListadoModelo _listadoArticuloModelo;
         private UCUsuarios _listadoUsuarios;
+        private UCArticulos _listadoArticulos;
 
         //Constructor MainWindow con las ventanas dialogo inyectadas (ahora si podemos pues pusimos los servicios en App.xaml.cs)
         public MainWindow(MVArticulo mvArticulo, VMModeloArticulo mvModeloArticulo,
-            VMUsuario mvUsuario, UCListadoModelo listadoArticuloModelo, UCUsuarios listadoUsuarios)
+            VMUsuario mvUsuario, UCListadoModelo listadoArticuloModelo, UCUsuarios listadoUsuarios,
+            UCArticulos listadoArticulos)
         {
             InitializeComponent();
             _mvModeloArticulo = mvModeloArticulo;
@@ -25,6 +27,7 @@ namespace articulomodelo
             _mvUsuario = mvUsuario;
             _listadoArticuloModelo = listadoArticuloModelo;
             _listadoUsuarios = listadoUsuarios;
+            _listadoArticulos = listadoArticulos;
         }
 
         //Botones de la barra horizontal azul de arriba
@@ -78,7 +81,7 @@ namespace articulomodelo
 
         private void UsuarioControl_ModeloArticulo(object sender, RoutedEventArgs e) //Ventana Control ArticuloModelo
         {
-            Ventana_Principal.Children.Clear(); 
+            Ventana_Principal.Children.Clear();
             Ventana_Principal.Children.Add(_listadoArticuloModelo);
         }
 
@@ -90,13 +93,14 @@ namespace articulomodelo
             Ventana_Principal.Children.Add(_listadoUsuarios);
         }
 
-        //Crear dialogo de borrar
-        private void Borrar_Click(object sender, RoutedEventArgs e)
+      
+        private void UsuarioControl_Articulo(object sender, RoutedEventArgs e) //Ventana Control Articulos
         {
-            //TODO: Implementar VM a la ventana (borrado lo q tenia antes xq no sirve a este punto)
-            
+            Ventana_Principal.Children.Clear();
+            Ventana_Principal.Children.Add(_listadoArticulos);
         }
 
-     
+
+
     }
 }

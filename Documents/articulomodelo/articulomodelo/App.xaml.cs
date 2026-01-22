@@ -111,6 +111,7 @@ namespace articulomodelo
             //Registrar controles de usuario
             services.AddTransient<UCListadoModelo>();
             services.AddTransient<UCUsuarios>();
+            services.AddTransient<UCArticulos>();
             //Loggin
             services.AddLogging();
         }

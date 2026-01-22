@@ -1,4 +1,5 @@
-﻿using System;
+﻿using articulomodelo.MVVM;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,17 @@ namespace articulomodelo.Frontend.ControlUsuario
     /// </summary>
     public partial class UCArticulos : UserControl
     {
-        public UCArticulos()
+        private MVArticulo _vmArticulo;
+        public UCArticulos(MVArticulo vmArticulo)
         {
             InitializeComponent();
+            _vmArticulo = vmArticulo;
+        }
+
+        private async void usuario_lista_loaded(object sender, RoutedEventArgs e)
+        {
+            await _vmArticulo.InicializarArticulos();
+            DataContext = _vmArticulo;
         }
     }
 }

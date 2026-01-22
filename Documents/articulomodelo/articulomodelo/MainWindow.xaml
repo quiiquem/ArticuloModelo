@@ -19,9 +19,7 @@
 
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <!--Para que la fila entera tenga ese color negro-->
@@ -77,44 +75,28 @@
 
             <!--Datagrids (listas de datos) -->
             <MenuItem Header="DataGrids">
-                <!--Listar usuarios (avanzado)-->
-                <MenuItem Header="Listado Usuarios [cuando lo tenga mejor]">
+                <MenuItem.Icon>
+                    <materialDesign:PackIcon Kind="ViewList"/>
+                </MenuItem.Icon>
+
+                <!--Lista de Usuarios-->
+                <MenuItem Header="Listado Usuarios" Click="UsuarioControl_Usuario">
                     <MenuItem.Icon>
-                        <materialDesign:PackIcon Kind="Toolbox"/>
-                    </MenuItem.Icon>
-                    <!--Listar Usuarios tipo 1-->
-                    <MenuItem Header="Lista Usuarios normales">
-                        <MenuItem.Icon>
-                            <materialDesign:PackIcon Kind="UserEdit"/>
-                        </MenuItem.Icon>
-                    </MenuItem>
-                    <!--Editar usuarios empleados-->
-                    <MenuItem Header="Lista Usuarios empleados">
-                        <MenuItem.Icon>
-                            <materialDesign:PackIcon Kind="Edit"/>
-                        </MenuItem.Icon>
-                    </MenuItem>
-                    <!--Lista de usuarios admins-->
-                    <MenuItem Header="Lista Usuarios administradores">
-                        <MenuItem.Icon>
-                            <materialDesign:PackIcon Kind="Ban"/>
-                        </MenuItem.Icon>
-                    </MenuItem>
-                </MenuItem>
-                <!--Lista de usuario (actual)-->
-                <MenuItem Header="Lista usuarios normal" Click="UsuarioControl_Usuario">
-                    <materialDesign:PackIcon Kind="User"/>
-                </MenuItem>
-                <!--Lista de articulos-->
-                <MenuItem Header="Listado articulos">
-                    <MenuItem.Icon>
-                        <materialDesign:PackIcon Kind="ListBox"/>
+                        <materialDesign:PackIcon Kind="AccountGroup"/>
                     </MenuItem.Icon>
                 </MenuItem>
+
+                <!--Lista de artículos-->
+                <MenuItem Header="Listado Artículos" Click="UsuarioControl_Articulo">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Package"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+
                 <!--Lista de modelo articulo-->
-                <MenuItem Header="Listado modelo articulo" Click="UsuarioControl_ModeloArticulo">
+                <MenuItem Header="Listado Modelo Artículo" Click="UsuarioControl_ModeloArticulo">
                     <MenuItem.Icon>
-                        <materialDesign:PackIcon Kind="Email"/>
+                        <materialDesign:PackIcon Kind="PackageVariant"/>
                     </MenuItem.Icon>
                 </MenuItem>
             </MenuItem>
@@ -163,12 +145,7 @@
             </MenuItem>
         </Menu>
         <Grid x:Name="Ventana_Principal" Grid.Row="1" Grid.ColumnSpan="4">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="90*"/>
-                <ColumnDefinition Width="27*"/>
-                <ColumnDefinition Width="683*"/>
-            </Grid.ColumnDefinitions>
-
+           
         </Grid>
     </Grid>
 </mah:MetroWindow>

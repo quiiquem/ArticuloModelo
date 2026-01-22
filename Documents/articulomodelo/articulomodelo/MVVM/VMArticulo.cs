@@ -43,13 +43,16 @@ namespace articulomodelo.MVVM
         /// lista de los departamentos
         private List<Departamento> _listaDepartamentos;
         /// </summary>
+        /// lista de articulos (UserControl)
+        private List<Articulo> _listaArticulos;
         #endregion
         #region Getters y Setters
         public List<Usuario> listaUsuarios => _listaUsuarios;
         public List<Modeloarticulo> listaModelos => _listaModelosArticulos;
         public List<Espacio> listaEspacios => _listaEspacios;
-
         public List<Departamento> listaDepartamentos => _listaDepartamentos;
+
+        public List<Articulo> listaArticulos => _listaArticulos;
 
         // Lista personalizada para el estado
         public List<string?> ListaEstados { get; } = new() { null, // permite estado NULL
@@ -81,6 +84,23 @@ namespace articulomodelo.MVVM
         //DIALOGO ARTICULO
         //-----------------
 
+        
+        //Listar articulos (UserControl)
+
+        public async Task InicializarArticulos()
+        {
+            try
+            {
+                _listaArticulos = await GetAllAsync<Articulo>(_articuloRepository);
+                OnPropertyChanged(nameof(listaArticulos));
+            }
+            catch (Exception ex)
+            {
+                MensajeError.Mostrar("GESTIÓN ARTÍCULOS", "Error al cargar los artículos\n" +
+                    "No puedo conectar con la base de datos", 0);
+            }
+        }
+
         //Listar usuarios (Alta / Baja usuario)
         public async Task InicializarUsuarios()
         {
@@ -102,20 +122,12 @@ namespace articulomodelo.MVVM
         {
             try
             {
-                System.Diagnostics.Debug.WriteLine("🔍 Intentando cargar modelos...");
                 _listaModelosArticulos = await GetAllAsync<Modeloarticulo>(_modeloarticuloRepository);
-                System.Diagnostics.Debug.WriteLine($"✅ Modelos cargados: {_listaModelosArticulos?.Count ?? 0}");
-                OnPropertyChanged(nameof(listaModelos));
             }
             catch (Exception ex)
             {
-                System.Diagnostics.Debug.WriteLine($"❌ ERROR AL CARGAR MODELOS:");
-                System.Diagnostics.Debug.WriteLine($"   Mensaje: {ex.Message}");
-                System.Diagnostics.Debug.WriteLine($"   InnerException: {ex.InnerException?.Message}");
-                System.Diagnostics.Debug.WriteLine($"   StackTrace: {ex.StackTrace}");
-
-                MensajeError.Mostrar("GESTIÓN MODELOS ARTÍCULOS",
-                    $"Error al cargar los modelos de artículos\n{ex.Message}", 0);
+                MensajeError.Mostrar("GESTIÓN MODELOS ARTÍCULOS"," Error al cargar los modelos de artículos\n" +
+                    "No puedo conectar con la base de datos", 0);
             }
         }
 

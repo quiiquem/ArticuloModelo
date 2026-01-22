@@ -19,9 +19,9 @@
         <!--Listas-->
         <Grid>
             <DataGrid ItemsSource="{Binding listaModelos}" AutoGenerateColumns="False"
-              CanUserAddRows="False" ColumnWidth="*" Background="AntiqueWhite">
+              CanUserAddRows="False" ColumnWidth="*" Background="AntiqueWhite" IsReadOnly="True">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="NOMBRE" Binding="{Binding Nombre}" IsReadOnly="True"/>
+                    <DataGridTextColumn Header="NOMBRE" Binding="{Binding Nombre}"/>
                     <DataGridTemplateColumn Header="MARCA - MODELO" IsReadOnly="True">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
@@ -34,11 +34,11 @@
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
                     <DataGridTextColumn Header="CANTIDAD DE ARTÍCULOS"
-                    Binding="{Binding Articulos.Count}" IsReadOnly="True"/>
+                    Binding="{Binding Articulos.Count}"/>
                     <DataGridTextColumn Header="TIPO DE MODELO"
-                    Binding="{Binding TipoNavigation.Nombre}" IsReadOnly="True"/>
+                    Binding="{Binding TipoNavigation.Nombre}"/>
                     <DataGridTextColumn Header="DESCRIPCIÓN"
-                    Binding="{Binding Descripcion}" IsReadOnly="True"/>
+                    Binding="{Binding Descripcion}"/>
                 </DataGrid.Columns>
             </DataGrid>
         </Grid>

@@ -6,34 +6,25 @@
         xmlns:local="clr-namespace:articulomodelo.Frontend.ControlUsuario"
         mc:Ignorable="d"
         d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
+    <DockPanel>
+        <Grid DockPanel.Dock="Top">
+            <Border BorderThickness="2" BorderBrush="Black" Width="550" Height="80" Margin="0,10" Background="CornflowerBlue">
+                <TextBlock Text="Lista Articulos" FontSize="30"  TextAlignment="Center" Margin="0,20" 
+Width="550" FontWeight="DemiBold" Foreground="White" Height="80"/>
+            </Border>
+        </Grid>
+        <Grid>
+            <DataGrid ItemsSource="{Binding listaArticulos}" AutoGenerateColumns="False"
+              CanUserAddRows="False" ColumnWidth="*" Background="AntiqueWhite" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="NÚMERO DE SERIE" Binding="{Binding NumSerie}"/>
+                    <DataGridTextColumn Header="MODELO" Binding="{Binding ModeloNavigation.Nombre}"/>
+                    <DataGridTextColumn Header="ESTADO" Binding="{Binding Estado}"/>
+                    <DataGridTextColumn Header="ESPACIO" Binding="{Binding EspacioNavigation.Nombre}"/>
+                    <DataGridTextColumn Header="USUARIO ALTA" Binding="{Binding UsuarioaltaNavigation.Username, StringFormat=d}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
         
-        
-        <!--Mostrar más datos que los principales-->
-        
-        <!--<DataGrid.RowDetailsTemplate>
-            <DataTemplate>
-                <DockPanel>
-                    <Grid DockPanel.Dock="Top">
-                        <TextBlock Text="LISTADO DE cosas del AM no se me ocurre nada rn"
-                           FontSize="14" FontWeight="Bold" Margin="10"/>
-                    </Grid>
-                    <Grid>
-                        <ListBox ItemsSource="{Binding Salida}">
-                            <ListBox.ItemTemplate>
-                                <DataTemplate>
-                                    <Border BorderBrush="Gray"
-                                    BorderThickness="2"
-                                    Margin="5"
-                                    Padding="5"
-                                    >
-                                    </Border>
-                                </DataTemplate>
-                            </ListBox.ItemTemplate>
-                        </ListBox>
-                    </Grid>
-                </DockPanel>
-            </DataTemplate>
-        </DataGrid.RowDetailsTemplate>-->
-    </Grid>
+    </DockPanel>
 </UserControl>

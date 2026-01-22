@@ -27,10 +27,18 @@ namespace articulomodelo.Frontend.ControlUsuario
             _vmUsuario = vmUsuario;
         }
 
-        private async void usuario_listaUsuario_loaded(object sender, System.Windows.RoutedEventArgs e)
+        private async void usuario_listaUsuario_loaded(object sender, RoutedEventArgs e)
         {
+            OverlayCargando.Visibility = Visibility.Visible; // Mostrar
+
+            // Pequeño delay para que el UI se renderice
+            await Task.Delay(50);
+
+            // Cargar datos
             await _vmUsuario.InicializarUsuarios();
-            DataContext = _vmUsuario;
+            this.DataContext = _vmUsuario;
+
+            OverlayCargando.Visibility = Visibility.Collapsed; // Ocultar
         }
     }
 }

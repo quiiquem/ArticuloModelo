@@ -5,6 +5,7 @@ using articulomodelo.MVVM.Implementacion;
 using ProyectoDI_Trimestre1.Frontend.Mensajes;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Windows;
 
 namespace articulomodelo.MVVM
 {
@@ -56,6 +57,26 @@ namespace articulomodelo.MVVM
             _usuario = new Usuario();
         }
 
+
+        //-----------------
+        //CONTROL DE USUARIO
+
+   
+
+        //Listar usuarios (usuario control)
+        public async Task InicializarUsuarios()
+        {
+            try
+            {
+                _listaUsuario = await _usuarioRepository.GetAllWithRelationsAsync(); // ← Cambiar esta línea
+                OnPropertyChanged(nameof(listaUsuario));
+            }
+            catch (Exception ex)
+            {
+                MensajeError.Mostrar("GESTIÓN USUARIOS", "Error al cargar los usuarios\n" +
+                    "No puedo conectar con la base de datos", 0);
+            }
+        }
 
         //-----------------
         //DIALOGO ARTICULO
@@ -121,20 +142,7 @@ namespace articulomodelo.MVVM
             }
         }
 
-        //Listar usuarios (usuario control)
-        public async Task InicializarUsuarios()
-        {
-            try
-            {
-                _listaUsuario = await GetAllAsync<Usuario>(_usuarioRepository);
-                OnPropertyChanged(nameof(listaUsuario));
-            }
-            catch (Exception ex)
-            {
-                MensajeError.Mostrar("GESTIÓN USUARIOS", "Error al cargar los usuarios\n" +
-                    "No puedo conectar con la base de datos", 0);
-            }
-        }
+
 
         //GUARDAR USUARIO
 
@@ -161,6 +169,8 @@ namespace articulomodelo.MVVM
             }
             return correcto;
         }
+
+
 
     }
 }

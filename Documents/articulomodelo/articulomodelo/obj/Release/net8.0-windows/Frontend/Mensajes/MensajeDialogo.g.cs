@@ -31,8 +31,6 @@ using System.Windows.Media.TextFormatting;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Shell;
-using articulomodelo.Frontend.Dialogos;
-using articulomodelo.Helpers;
 
 
 namespace ProyectoDI_Trimestre1.Frontend.Mensajes {

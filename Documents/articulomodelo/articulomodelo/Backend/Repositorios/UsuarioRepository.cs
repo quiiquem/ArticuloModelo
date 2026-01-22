@@ -144,6 +144,16 @@ namespace articulomodelo.Backend.Servicios
                          .ConfigureAwait(false);
         }
 
+        public async Task<List<Usuario>> GetAllWithRelationsAsync()
+        {
+            return await _context.Usuario
+                .Include(u => u.RolNavigation)
+                .Include(u => u.DepartamentoNavigation)
+                .Include(u => u.GrupoNavigation)
+                .Include(u => u.TipoNavigation)
+                .ToListAsync();
+        }
+
         public Usuario? UsuarioLogin
         {
             get { return _usuarioLogueado; }
