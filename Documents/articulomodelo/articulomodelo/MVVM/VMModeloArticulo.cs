@@ -18,16 +18,21 @@ namespace articulomodelo.MVVM
         /// <summary>
         /// Vincular a la vista para mostrar y editar datos de articulo no modelo
         /// </summary>
-        private ModeloArticuloRepository _modeloArticuloRepository;
+              private ModeloArticuloRepository _modeloArticuloRepository;
             /// <summary>
             /// Repositorio para gestionar las operaciones de datos relacionadas con los tipos de artículo
             /// </summary>
             private TipoArticuloRepository _tipoArticuloRepository;
-        /// <summary>
+
         /// <summary>
         /// lista de tipos de artículos disponibles
         /// </summary>
         private List<Tipoarticulo> _listaTipoArticulos;
+        /// <summary>
+        /// <summary>
+        //tipoarticulo para que sea seleccionable
+        /// </summary>
+        private Tipoarticulo _tipoNavigationSelecionado;
        /// <summary>
        /// lista de los usuarios que hay en la base de datos
        /// </summary>
@@ -37,43 +42,58 @@ namespace articulomodelo.MVVM
         /// lista de modelo articulos de la BD (por esto no cargaba)
         private List<Modeloarticulo> _listaModelosArticulos;
 
-        //Lista privada de collection view para el filtro
-        private ListCollectionView _listaModelos { get; set; }
+        //Lista publica de collectionview para filtrar resultados
+        public ListCollectionView listaModelo_CollectionView { get; set; }
 
         //lista para el filtro
         private List<Predicate<Modeloarticulo>> _criterios;
-        private Predicate<Modeloarticulo> _criterioEspacioArticulo;
-        private Predicate<Modeloarticulo> _criterioNumeroSerieArticulo;
+        private Predicate<Modeloarticulo> _criterioTipoNavigation;
         private Predicate<object> _predicadoFiltros;
 
         #endregion
 
 
         #region Getters y Setters
-
+        
         public List<Modeloarticulo> listaModelos => _listaModelosArticulos;
         public List<Tipoarticulo> listaTiposArticulos => _listaTipoArticulos;
         public List <Usuario> listaUsuarios => _listaUsuarios;
+
+        //Declarar modelo articulo
         public Modeloarticulo modeloArticulo
             {
                 get => _modeloArticulo;
                 set => SetProperty(ref _modeloArticulo, value);
             }
-            #endregion
-            // Aquí puedes añadir propiedades y métodos específicos para el ViewModel de Artículo
-            public VMModeloArticulo(ModeloArticuloRepository modeloArticuloRepository,
+        //Declarar tipo navegacion
+        public Tipoarticulo tipoNavigationSelecionado
+            {
+                get => _tipoNavigationSelecionado;
+            set => SetProperty(ref _tipoNavigationSelecionado, value);
+        }
+
+
+        #endregion
+        // Aquí puedes añadir propiedades y métodos específicos para el ViewModel de Artículo
+        public VMModeloArticulo(ModeloArticuloRepository modeloArticuloRepository,
                               TipoArticuloRepository tipoArticuloRepository)
             {
+            //REPOSITORIOS 
                 _modeloArticuloRepository = modeloArticuloRepository;
                 _tipoArticuloRepository = tipoArticuloRepository;
                 _modeloArticulo = new Modeloarticulo();
-            }
+
+            // COLLECTION VIEW Y FILTROS
+            _criterios = new List<Predicate<Modeloarticulo>>();
+            InicializaCriterios();
+            _predicadoFiltros = new Predicate<object>(FiltroCriterios);
+        }
 
         //----------------
         //DIALOGO MODELO ARTICULO
         //----------------
         //Listar tipos de artículos
-        public async Task Inicializa()
+        public async Task InicializaTipoArticulo()
             {
                 try
                 {
@@ -94,7 +114,7 @@ namespace articulomodelo.MVVM
                     _listaModelosArticulos = await GetAllAsync<Modeloarticulo>(_modeloArticuloRepository);
                     OnPropertyChanged(nameof(listaModelos));
 
-                _listaModelos = new ListCollectionView((await Modeloarticulo.GetAllAsync()).ToList());
+                listaModelo_CollectionView = new ListCollectionView(_listaModelosArticulos); //Inicializar lista collection view
             }
                 catch (Exception ex)
                 {
@@ -128,32 +148,30 @@ namespace articulomodelo.MVVM
             }
 
         #region Metodos privados de filtrado
+        // InicializaCriterios
         private void InicializaCriterios()
         {
-            _criterioEspacioArticulo = new Predicate<Articulo>(m => m.EspacioNavigation != null && m.EspacioNavigation.Equals(espacioArticuloSeleccionado));
-            _criterioNumeroSerieArticulo = new Predicate<Articulo>(m => !string.IsNullOrEmpty(_textoNumeroSerie) && m.Numserie!.ToLower().StartsWith(_textoNumeroSerie.ToLower()));
+            _criterioTipoNavigation = new Predicate<Modeloarticulo>(
+                m => m.TipoNavigation != null && m.TipoNavigation.Equals(tipoNavigationSelecionado)
+            );
         }
 
         private void AddCriterios()
         {
             _criterios.Clear();
-            if (espacioModeloArticulo != null)
+            if (_criterioTipoNavigation != null)
             {
-                _criterios.Add(_criterioEspacioModeloArticulo);
-            }
-            if (!string.IsNullOrEmpty(_textoNumeroSerie))
-            {
-                _criterios.Add(_criterioNumeroSerieArticulo);
+                _criterios.Add(_criterioTipoNavigation);
             }
         }
 
         private bool FiltroCriterios(object item)
         {
             bool correcto = true;
-            Articulo articulo = (Articulo)item;
+            Modeloarticulo modeloArticulo = (Modeloarticulo)item;
             if (_criterios != null)
             {
-                correcto = _criterios.TrueForAll(x => x(articulo));
+                correcto = _criterios.TrueForAll(x => x(modeloArticulo));
             }
             return correcto;
         }
@@ -161,14 +179,13 @@ namespace articulomodelo.MVVM
         public void Filtrar()
         {
             AddCriterios();
-            listaArticulos.Filter = _predicadoFiltros;
+            listaModelo_CollectionView.Filter = _predicadoFiltros;
         }
 
         public void LimpiarFiltros()
         {
-            espacioModeloArticuloSeleccionado = null;
-            textoNumeroSerie = string.Empty;
-            listaModeloArticulo.Filter = null;
+            tipoNavigationSelecionado = null;
+            listaModelo_CollectionView.Filter = null;
         }
 
         #endregion

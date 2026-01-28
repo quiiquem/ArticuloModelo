@@ -18,7 +18,13 @@ namespace articulomodelo.Frontend.ControlUsuario
         private async void usuario_listaAM_loaded(object sender, System.Windows.RoutedEventArgs e)
         {
             await _vmModeloArticulo.InicializarModelosArticulos();
+            await _vmModeloArticulo.InicializaTipoArticulo();
             DataContext = _vmModeloArticulo;
+        }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            _vmModeloArticulo.Filtrar();
         }
     }
 }

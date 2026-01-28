@@ -33,7 +33,7 @@ namespace articulomodelo.Frontend.Dialogos
 
         private async void diagModeloArticulo_Loaded(object sender, RoutedEventArgs e)
         {
-            await _mvArticulo.Inicializa();
+            await _mvArticulo.InicializaTipoArticulo();
             this.AddHandler(Validation.ErrorEvent, new RoutedEventHandler(_mvArticulo.OnErrorEvent));
             //Enlaza la parte visual con VM , usando el DataContext para que este conectada a la BD
             DataContext = _mvArticulo;
