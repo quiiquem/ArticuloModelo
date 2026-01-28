@@ -51,4 +51,9 @@ public partial class Modeloarticulo : ValidatableViewModel //Lo sincroniza con l
     [InverseProperty("Modeloarticulos")]
     [Required(ErrorMessage = "El tipo del modelo es obligatorio")]
     public virtual Tipoarticulo? TipoNavigation { get; set; }
+
+    internal static async Task GetAllAsync()
+    {
+        throw new NotImplementedException();
+    }
 }

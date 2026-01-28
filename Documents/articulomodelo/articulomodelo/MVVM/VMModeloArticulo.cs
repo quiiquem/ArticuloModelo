@@ -3,6 +3,7 @@ using articulomodelo.Backend.Servicios;
 using articulomodelo.Frontend.Mensajes;
 using articulomodelo.MVVM.Implementacion;
 using ProyectoDI_Trimestre1.Frontend.Mensajes;
+using System.Windows.Data;
 
 namespace articulomodelo.MVVM
 {
@@ -36,7 +37,18 @@ namespace articulomodelo.MVVM
         /// lista de modelo articulos de la BD (por esto no cargaba)
         private List<Modeloarticulo> _listaModelosArticulos;
 
+        //Lista privada de collection view para el filtro
+        private ListCollectionView _listaModelos { get; set; }
+
+        //lista para el filtro
+        private List<Predicate<Modeloarticulo>> _criterios;
+        private Predicate<Modeloarticulo> _criterioEspacioArticulo;
+        private Predicate<Modeloarticulo> _criterioNumeroSerieArticulo;
+        private Predicate<object> _predicadoFiltros;
+
         #endregion
+
+
         #region Getters y Setters
 
         public List<Modeloarticulo> listaModelos => _listaModelosArticulos;
@@ -66,7 +78,7 @@ namespace articulomodelo.MVVM
                 try
                 {
                     _listaTipoArticulos = await GetAllAsync<Tipoarticulo>(_tipoArticuloRepository);
-                }
+            }
                 catch (Exception ex)
                 {
                     MensajeError.Mostrar("GESTIÓN ARTÍCULOS", "Error al cargar los tipos de articulo\n" +
@@ -81,7 +93,9 @@ namespace articulomodelo.MVVM
                 {
                     _listaModelosArticulos = await GetAllAsync<Modeloarticulo>(_modeloArticuloRepository);
                     OnPropertyChanged(nameof(listaModelos));
-                }
+
+                _listaModelos = new ListCollectionView((await Modeloarticulo.GetAllAsync()).ToList());
+            }
                 catch (Exception ex)
                 {
                     MensajeError.Mostrar("GESTIÓN MODELOS ARTÍCULOS", "Error al cargar los modelos de articulo\n" +
@@ -112,5 +126,51 @@ namespace articulomodelo.MVVM
                 }
                 return correcto;
             }
+
+        #region Metodos privados de filtrado
+        private void InicializaCriterios()
+        {
+            _criterioEspacioArticulo = new Predicate<Articulo>(m => m.EspacioNavigation != null && m.EspacioNavigation.Equals(espacioArticuloSeleccionado));
+            _criterioNumeroSerieArticulo = new Predicate<Articulo>(m => !string.IsNullOrEmpty(_textoNumeroSerie) && m.Numserie!.ToLower().StartsWith(_textoNumeroSerie.ToLower()));
         }
+
+        private void AddCriterios()
+        {
+            _criterios.Clear();
+            if (espacioModeloArticulo != null)
+            {
+                _criterios.Add(_criterioEspacioModeloArticulo);
+            }
+            if (!string.IsNullOrEmpty(_textoNumeroSerie))
+            {
+                _criterios.Add(_criterioNumeroSerieArticulo);
+            }
+        }
+
+        private bool FiltroCriterios(object item)
+        {
+            bool correcto = true;
+            Articulo articulo = (Articulo)item;
+            if (_criterios != null)
+            {
+                correcto = _criterios.TrueForAll(x => x(articulo));
+            }
+            return correcto;
+        }
+
+        public void Filtrar()
+        {
+            AddCriterios();
+            listaArticulos.Filter = _predicadoFiltros;
+        }
+
+        public void LimpiarFiltros()
+        {
+            espacioModeloArticuloSeleccionado = null;
+            textoNumeroSerie = string.Empty;
+            listaModeloArticulo.Filter = null;
+        }
+
+        #endregion
     }
+}

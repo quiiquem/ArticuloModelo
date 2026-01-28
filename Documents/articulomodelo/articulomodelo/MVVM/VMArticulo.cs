@@ -3,6 +3,7 @@ using articulomodelo.Backend.Servicios;
 using articulomodelo.Frontend.Mensajes;
 using articulomodelo.MVVM.Implementacion;
 using ProyectoDI_Trimestre1.Frontend.Mensajes;
+using System.Windows.Data;
 
 namespace articulomodelo.MVVM
 {
@@ -45,6 +46,12 @@ namespace articulomodelo.MVVM
         /// </summary>
         /// lista de articulos (UserControl)
         private List<Articulo> _listaArticulos;
+
+   
+        //Declarar lista de criterios
+        private List<Predicate<Articulo>> _criterios;
+
+
         #endregion
         #region Getters y Setters
         public List<Usuario> listaUsuarios => _listaUsuarios;
@@ -93,6 +100,7 @@ namespace articulomodelo.MVVM
             {
                 _listaArticulos = await _articuloRepository.GetAllWithRelationsAsync();
                 OnPropertyChanged(nameof(listaArticulos));
+
             }
             catch (Exception ex)
             {
